@@ -2,20 +2,40 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>First jQuery-Enabled Page</title>
-
-
-    <!-- LINK TO LOCAL JQUERY -->
-    <script type="text/javascript" src="../jquery-1.9.1.js"></script>
-    <script type="text/javascript">
-        $("document").ready(function() {
-            // WHEN THE ENTIRE DOCUMENT HAS LOADED, FLASH AN ALERT
-            alert("Hello jQuery!");
-        });
-    </script>
-
-
 </head>
+
+
 <body>
+
+
+
+
+<h1>Click here</h1>
+<h1>OR Click here</h1>
+
+
+<!-- LINK TO LOCAL JQUERY -->
+<!-- BE SURE TO PUT ALL SCRIPTS UNDER ELEMENTS BEING REFERENCED OR IT WON'T WORK! -->
+<script type="text/javascript" src="../jquery-1.9.1.js"></script>
+
+
+<!-- JQUERY EVENTS -->
+<script type="text/javascript">
+
+    // WHEN THE ENTIRE DOCUMENT HAS LOADED, FLASH AN ALERT
+    $("document").ready(function() {
+        alert("Hello jQuery!");
+    });
+
+
+    // WHEN ANY h1 IS CLICKED, SHOW AN ALERT
+    $( "h1" ).click(function() {
+        alert("It Worked");
+    });
+</script>
+
+
+
 
 </body>
 </html>
