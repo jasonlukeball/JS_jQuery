@@ -2,9 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>First jQuery-Enabled Page</title>
-    
-    <!-- insert the script to reference jQuery here -->
-    <!-- insert the script to display the Hello World message here -->
+
+
+    <!-- LINK TO LOCAL JQUERY -->
+    <script type="text/javascript" src="../jquery-1.9.1.js"></script>
+    <script type="text/javascript">
+        $("document").ready(function() {
+            // WHEN THE ENTIRE DOCUMENT HAS LOADED, FLASH AN ALERT
+            alert("Hello jQuery!");
+        });
+    </script>
+
+
 </head>
 <body>
 
