@@ -12,18 +12,23 @@
         // use the get() and get(index) to retrieve DOM elements
         var elems = $("li").get();
         alert("There are " + elems.length + " <li> tags");
-        alert($("li").get(0));
+        // log the first li element
+        console.log($("li").get(0));
 
         // use the find function
+        // Find all li elements in a ul with class "b" and give a border
         $("ul").find("li.b").css("border", "3px solid red");
 
         // use the each function
         var leftmargin = 0;
         var border = 3;
         $("p").each(function() {
+            console.log (this);
             $(this).css("border", border+"px solid red");
             $(this).css("margin-left", leftmargin);
+            // increase the border thickness by 2
             border += 2;
+            // increase the left margin by 10
             leftmargin += 10;
         });
     });
