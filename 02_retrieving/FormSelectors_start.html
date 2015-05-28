@@ -5,9 +5,32 @@
     <title>Using Form Selectors and Filters</title>
 <script type="text/javascript" src="../jquery-1.9.1.js"></script>
 <script type="text/javascript">
+
+
+
     $("document").ready(function() {
+
+        // Find all inputs inside the form (does not include dropdowns and checkboxes)
+        //$("form :input").css("border", "3px solid red");
+
+        // Find all text inputs (does not include textarea)
+        //$("form :text").css("border", "3px solid red");
+
+        // Find all enabled text inputs
+        //$("form :text:enabled").css("border", "3px solid red");
+
+        // Find all inputs in the form that are checked (includes radio buttons and checkboxes)
+        //$("form :checked").css("border", "3px solid red");
+
+        // Find all checkboxes in the form that are checked
+        //$("form :checkbox:checked").css("border", "3px solid red");
+
     });
 </script>
+
+
+
+
     <style type="text/css">
         .style1
         {
@@ -82,7 +105,8 @@
         <td class="style2">
             &nbsp;</td>
         <td>
-            <input id="Submit1" type="submit" value="submit" /> <input id="Reset1" 
+
+            <input id="Submit1" type="submit" value="submit" /> <input id="Reset1"
                 type="reset" value="reset" /></td>
     </tr>
 </tbody></table>

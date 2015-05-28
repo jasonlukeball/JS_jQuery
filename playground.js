@@ -137,6 +137,12 @@ $("p:not(p:eq(2))").css("border", "3px solid red");
 // Filters a set of elements using their visibility setting as the test
 // http://api.jquery.com/category/selectors/visibility-filter-selectors/
 
+// Find all p tags and make them visible
+$("p:parent").css("visibility", "visible");
+
+// Find all p tags and make them invisible
+$("p:parent").css("visibility", "hidden");
+
 
 
 // Attribute Filters
@@ -162,11 +168,27 @@ $("p[id^=para][lang*=en-]").css("border", "3px solid red");
 
 
 
-
 // Child Filters
 // ----------------------
 // Selects elements based on their relationship with their parent element
 // http://api.jquery.com/category/selectors/child-filter-selectors/
+
+// Finds any p tag that contains "3"
+$("p:contains(3)").css("border", "3px solid red");
+
+// Finds all elements that are parents (ie they contain at least one other element, including text)
+$("p:parent").css("border", "3px solid red");
+
+// Finds any ul that has a li within it with class "a"
+$("ul:has(li[class=a])").css("border", "3px solid red");
+
+// Finds the 3rd li inside a ul
+$("ul li:nth-child(3)").css("border", "3px solid red");
+
+// Find every third li within a ul
+// This is going to start counting and select every 3rd li in a ul
+// When it finds one, the counter returns to zero
+$("ul li:nth-child(3n)").css("border", "3px solid red");
 
 
 
