@@ -97,36 +97,64 @@ $("#list1 ~ p").css("border", "2px solid black")
 // Filters provide even more fine-grained control over how elements are selected in the document
 
 // Basic Filters
+// ----------------------
 // Getting the first, last, even or odd numbered items
 // http://api.jquery.com/category/selectors/basic-filter-selectors/
+
+$("p:first").css("border", "3px solid red");
+$("p:last").css("border", "3px solid red");
+$("p:even").css("border", "3px solid red");
+$("p:odd").css("border", "3px solid red");
+$(".a:first").css("border", "3px solid red");
+$(".b:last").css("border", "3px solid red");
+$(".b:even").css("border", "3px solid red");
+
+// Select all elements at an index greater than index within the matched set.
+// paragraph 1 = index 0, paragraph 2 = index 1 etc
+// This gets all paragraphs with an index greater than 1
+$("p:gt(1)").css("border","3px solid red");
+
+
+// Select the element at index n within the matched set.
+// Selects paragraph 1
+$("p:eq(0)").css("border", "3px solid red");
+
+// Selects all elements that do not match the given selector.
+// Selects all paragraphs except paragraph 3 (which has index EQUAL TO 2)
+$("p:not(p:eq(2))").css("border", "3px solid red");
 
 
 
 // Content Based Filters
+// ----------------------
 // Filters a set of elements where the text contains "sometext" etc
 // http://api.jquery.com/category/selectors/content-filter-selector/
 
 
 
 // Visibility Filters
+// ----------------------
 // Filters a set of elements using their visibility setting as the test
 // http://api.jquery.com/category/selectors/visibility-filter-selectors/
 
 
 
 // Attribute Filters
+// ----------------------
 // Examines the given attribute to determine if an element should be filtered out
 // http://api.jquery.com/category/selectors/attribute-selectors/
 
 
 
 // Child Filters
+// ----------------------
 // Selects elements based on their relationship with their parent element
 // http://api.jquery.com/category/selectors/child-filter-selectors/
 
 
 
 // Form Filters
+// ----------------------
 // Specialised filters that operate on form elements
 // http://api.jquery.com/category/selectors/form-selectors/
 
