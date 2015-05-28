@@ -4,16 +4,40 @@
 <head>
 <title>Document</title>
 <script type="text/javascript" src="../jquery-1.9.1.js"></script>
+
+
+
 <script type="text/javascript">
     $("document").ready(function() {
+
+        // get the p tags and turn them green
+        $("p").css("color", "green");
+
+        // get anything with class a and color blue
+        $(".a").css("color", "blue");
+
+        // get anything with id "list1" and give a purple border
+        $("#list1").css("border", "1px solid purple");
+
+        // get all p tags with class "b" and color orange
+        $("p.b").css("color","orange");
+
     });
 </script>
+
+
+
 <style type="text/css">
 .a { color: Navy; }
 .b { color: Maroon; }
 </style>
+
 </head>
+
+
 <body>
+
+
 	<ul id="list1">
 		<li class="a">item 1</li>
 		<li class="a">item 2</li>
@@ -24,5 +48,9 @@
 <p>This is paragraph 2</p>
 <p class="b">This is paragraph 3</p>
 <p>This is paragraph 4</p>
+
+
 </body>
+
+
 </html>
