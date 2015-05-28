@@ -4,10 +4,40 @@
 <head>
 <title>Document</title>
 <script type="text/javascript" src="../jquery-1.9.1.js"></script>
+
+
 <script type="text/javascript">
+
+
     $("document").ready(function() {
+        // $("p:first").css("border", "3px solid red");
+        // $("p:last").css("border", "3px solid red");
+        // $("p:even").css("border", "3px solid red");
+        // $("p:odd").css("border", "3px solid red");
+        // $(".a:first").css("border", "3px solid red");
+        // $(".b:last").css("border", "3px solid red");
+        // $(".b:even").css("border", "3px solid red");
+
+        // Select all elements at an index greater than index within the matched set.
+        // paragraph 1 = index 0, paragraph 2 = index 1 etc
+        // This gets all paragraphs with an index greater than 1
+        //$("p:gt(1)").css("border","3px solid red");
+
+
+        // Select the element at index n within the matched set.
+        // Selects paragraph 1
+        // $("p:eq(0)").css("border", "3px solid red");
+
+        // Selects all elements that do not match the given selector.
+        // Selects all paragraphs except paragraph 3 (which has index 2)
+        $("p:not(p:eq(2))").css("border", "3px solid red");
+
     });
+
+
 </script>
+
+
 <style type="text/css">
 .a { color: Navy; }
 .b { color: Maroon; }

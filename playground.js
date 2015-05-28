@@ -89,3 +89,50 @@ $("ul + p").css("color","blue");
 $("#list1 ~ p").css("border", "2px solid black")
 
 
+
+// ---------------
+// FILTERS
+// ---------------
+
+// Filters provide even more fine-grained control over how elements are selected in the document
+
+// Basic Filters
+// Getting the first, last, even or odd numbered items
+// http://api.jquery.com/category/selectors/basic-filter-selectors/
+
+
+
+// Content Based Filters
+// Filters a set of elements where the text contains "sometext" etc
+// http://api.jquery.com/category/selectors/content-filter-selector/
+
+
+
+// Visibility Filters
+// Filters a set of elements using their visibility setting as the test
+// http://api.jquery.com/category/selectors/visibility-filter-selectors/
+
+
+
+// Attribute Filters
+// Examines the given attribute to determine if an element should be filtered out
+// http://api.jquery.com/category/selectors/attribute-selectors/
+
+
+
+// Child Filters
+// Selects elements based on their relationship with their parent element
+// http://api.jquery.com/category/selectors/child-filter-selectors/
+
+
+
+// Form Filters
+// Specialised filters that operate on form elements
+// http://api.jquery.com/category/selectors/form-selectors/
+
+
+
+
+
+
+
