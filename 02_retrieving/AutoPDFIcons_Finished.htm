@@ -10,6 +10,7 @@ li {
 <script type="text/javascript" src="../jquery-1.9.1.js"></script>
 <script type="text/javascript">
     $("document").ready(function() {
+        // Find all a tags within li tags where the href attribute ends in ".pdf" and add a pdc icon
         $("li a[href$='.pdf']").after("<img src='images/small_pdf_icon.gif' align='absbottom' />");
     });
 </script>

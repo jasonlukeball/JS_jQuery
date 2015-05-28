@@ -130,6 +130,9 @@ $("p:not(p:eq(2))").css("border", "3px solid red");
 // Filters a set of elements where the text contains "sometext" etc
 // http://api.jquery.com/category/selectors/content-filter-selector/
 
+// Finds any p tag that contains "3"
+$("p:contains(3)").css("border", "3px solid red");
+
 
 
 // Visibility Filters
@@ -172,9 +175,6 @@ $("p[id^=para][lang*=en-]").css("border", "3px solid red");
 // ----------------------
 // Selects elements based on their relationship with their parent element
 // http://api.jquery.com/category/selectors/child-filter-selectors/
-
-// Finds any p tag that contains "3"
-$("p:contains(3)").css("border", "3px solid red");
 
 // Finds all elements that are parents (ie they contain at least one other element, including text)
 $("p:parent").css("border", "3px solid red");

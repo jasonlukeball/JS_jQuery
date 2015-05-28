@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f3470-0528-40d2-a65f-54277777ec33" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_retrieving/disableSubmit.html" afterPath="$PROJECT_DIR$/03_manipulating/disableSubmit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_retrieving/traversing_finished.html" afterPath="$PROJECT_DIR$/02_retrieving/traversing_finished.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_retrieving/AutoPDFIcons_Finished.htm" afterPath="$PROJECT_DIR$/02_retrieving/AutoPDFIcons_Finished.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_manipulating/creating_finished.htm" afterPath="$PROJECT_DIR$/03_manipulating/creating_finished.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_manipulating/creating_start.htm" afterPath="$PROJECT_DIR$/03_manipulating/creating_start.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playground.js" afterPath="$PROJECT_DIR$/playground.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lynda_jQuery.iws" />
@@ -32,8 +34,8 @@
       <file leaf-file-name="playground.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2532" max-vertical-offset="3345">
-              <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3345">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -41,31 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="disableSubmit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03_manipulating/disableSubmit.html">
+      <file leaf-file-name="creating_start.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03_manipulating/creating_start.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.875" vertical-offset="201" max-vertical-offset="1155">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.5048077" vertical-offset="0" max-vertical-offset="765">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="traversing_start.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_retrieving/traversing_start.html">
+      <file leaf-file-name="creating_finished.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03_manipulating/creating_finished.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="510">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="traversing_finished.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02_retrieving/traversing_finished.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43269232" vertical-offset="0" max-vertical-offset="885">
-              <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="705">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="20" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -89,8 +81,12 @@
         <option value="$PROJECT_DIR$/02_retrieving/ChildVisCont_start.html" />
         <option value="$PROJECT_DIR$/02_retrieving/disableSubmit.html" />
         <option value="$PROJECT_DIR$/02_retrieving/FormSelectors_start.html" />
-        <option value="$PROJECT_DIR$/playground.js" />
         <option value="$PROJECT_DIR$/02_retrieving/traversing_finished.html" />
+        <option value="$PROJECT_DIR$/02_retrieving/traversing_start.html" />
+        <option value="$PROJECT_DIR$/playground.js" />
+        <option value="$PROJECT_DIR$/02_retrieving/AutoPDFIcons_Finished.htm" />
+        <option value="$PROJECT_DIR$/03_manipulating/creating_finished.htm" />
+        <option value="$PROJECT_DIR$/03_manipulating/creating_start.htm" />
       </list>
     </option>
   </component>
@@ -167,7 +163,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="02_retrieving" />
+              <option name="myItemId" value="03_manipulating" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,28 +201,28 @@
       <recent name="$PROJECT_DIR$/03_manipulating" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.traversing_finished.html">
-    <configuration default="false" name="AttrFilters_start.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/02_retrieving/AttrFilters_start.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ChildVisCont_start.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/02_retrieving/ChildVisCont_start.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FormSelectors_start.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/02_retrieving/FormSelectors_start.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.creating_start.htm">
     <configuration default="false" name="disableSubmit.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/03_manipulating/disableSubmit.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="false" name="traversing_finished.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/02_retrieving/traversing_finished.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AutoPDFIcons_Finished.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/02_retrieving/AutoPDFIcons_Finished.htm">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="creating_finished.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/03_manipulating/creating_finished.htm">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="creating_start.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/03_manipulating/creating_start.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -252,19 +248,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.AttrFilters_start.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ChildVisCont_start.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.FormSelectors_start.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.disableSubmit.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.traversing_finished.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.disableSubmit.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.traversing_finished.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.AutoPDFIcons_Finished.htm" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.creating_finished.htm" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.creating_start.htm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.traversing_finished.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.disableSubmit.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.FormSelectors_start.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ChildVisCont_start.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.AttrFilters_start.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.creating_start.htm" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.creating_finished.htm" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.AutoPDFIcons_Finished.htm" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.traversing_finished.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.disableSubmit.html" />
       </list>
     </recent_temporary>
   </component>
@@ -280,10 +276,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20750293" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20750293" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -446,16 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playground.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2532" max-vertical-offset="3345">
-          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_manipulating/disableSubmit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.875" vertical-offset="201" max-vertical-offset="1155">
@@ -464,7 +450,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/02_retrieving/traversing_finished.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="885">
+          <caret line="33" column="7" selection-start-line="7" selection-start-column="4" selection-end-line="33" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02_retrieving/traversing_start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="885">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_retrieving/AutoPDFIcons_Start.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -472,10 +474,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_retrieving/traversing_finished.html">
+    <entry file="file://$PROJECT_DIR$/02_retrieving/AutoPDFIcons_Finished.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43269232" vertical-offset="0" max-vertical-offset="885">
-          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="600">
+          <caret line="13" column="96" selection-start-line="13" selection-start-column="96" selection-end-line="13" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3345">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_manipulating/creating_finished.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="705">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="20" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_manipulating/creating_start.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5048077" vertical-offset="0" max-vertical-offset="765">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding />
         </state>
       </provider>
