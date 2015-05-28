@@ -145,6 +145,23 @@ $("p:not(p:eq(2))").css("border", "3px solid red");
 // http://api.jquery.com/category/selectors/attribute-selectors/
 
 
+// Any p tag with a class attribute
+$("p[class]").css("border", "3px solid red");
+
+// Any p tag with an id attribute
+$("p[id]").css("border", "3px solid red");
+
+// Any p tag where id = para1
+$("p[id=para1]").css("border", "3px solid red");
+
+// Any p tag where the id starts with "para"
+$("p[id^=para]").css("border", "3px solid red");
+
+// Any p tag where id starts with "para" and lang contains "en-"
+$("p[id^=para][lang*=en-]").css("border", "3px solid red");
+
+
+
 
 // Child Filters
 // ----------------------

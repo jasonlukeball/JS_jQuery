@@ -6,6 +6,23 @@
 <script type="text/javascript" src="../jquery-1.9.1.js"></script>
 <script type="text/javascript">
     $("document").ready(function() {
+
+        // Any p tag with a class attribute
+        //$("p[class]").css("border", "3px solid red");
+
+        // Any p tag with an id attribute
+        //$("p[id]").css("border", "3px solid red");
+
+        // Any p tag where id = para1
+        // Selects "This is paragraph 2"
+        //$("p[id=para1]").css("border", "3px solid red");
+
+        // Any p tag where the id starts with "para"
+        //$("p[id^=para]").css("border", "3px solid red");
+
+        // Any p tag where id starts with "para" and lang contains "en-"
+        $("p[id^=para][lang*=en-]").css("border", "3px solid red");
+
     });
 </script>
 <style type="text/css">
@@ -14,15 +31,18 @@
 </style>
 </head>
 <body>
+
 	<ul id="list1">
 		<li class="a">item 1</li>
 		<li class="a">item 2</li>
 		<li class="b">item 3</li>
 		<li class="b">item 4</li>
 	</ul>
-<p class="a">This is paragraph 1</p>
-<p id="para1">This is paragraph 2</p>
-<p class="b">This is paragraph 3</p>
-<p id="para4" lang="en-us">This is paragraph 4</p>
+    <p class="a">This is paragraph 1</p>
+    <p id="para1">This is paragraph 2</p>
+    <p class="b">This is paragraph 3</p>
+    <p id="para4" lang="en-us">This is paragraph 4</p>
+    <p id="para5">This is paragraph 5</p>
+
 </body>
 </html>
