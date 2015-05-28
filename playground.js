@@ -192,11 +192,25 @@ $("ul li:nth-child(3n)").css("border", "3px solid red");
 
 
 
-// Form Filters
-// ----------------------
+// Form Selectors & Filters
+// -------------------------
 // Specialised filters that operate on form elements
 // http://api.jquery.com/category/selectors/form-selectors/
 
+// Find all inputs inside the form (does not include dropdowns and checkboxes)
+$("form :input").css("border", "3px solid red");
+
+// Find all text inputs (does not include textarea)
+$("form :text").css("border", "3px solid red");
+
+// Find all enabled text inputs
+$("form :text:enabled").css("border", "3px solid red");
+
+// Find all inputs in the form that are checked (includes radio buttons and checkboxes)
+$("form :checked").css("border", "3px solid red");
+
+// Find all checkboxes in the form that are checked
+$("form :checkbox:checked").css("border", "3px solid red");
 
 
 
