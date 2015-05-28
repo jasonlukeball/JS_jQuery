@@ -6,6 +6,29 @@
 <script type="text/javascript" src="../jquery-1.9.1.js"></script>
 <script type="text/javascript">
     $("document").ready(function() {
+
+        // Any p tag that contains "3"
+        //$("p:contains(3)").css("border", "3px solid red");
+
+        // Finds all elements that are parents (ie they contain at least one other element, including text)
+        $("p:parent").css("border", "3px solid red");
+
+        // Any ul that has a li within it with class "a"
+        // $("ul:has(li[class=a])").css("border", "3px solid red");
+
+        // The 3rd li inside a ul
+        //$("ul li:nth-child(3)").css("border", "3px solid red");
+
+        //
+        //$("ul li:nth-child(2n)").css("border", "3px solid red");
+
+
+        // Find all p tags and make them visible
+        //$("p:parent").css("visibility", "visible");
+
+        // Find all p tags and make them invisible
+        //$("p:parent").css("visibility", "hidden");
+
     });
 </script>
 <style type="text/css">
@@ -20,9 +43,12 @@
 		<li class="b">item 3</li>
 		<li class="b">item 4</li>
 	</ul>
-<p class="a">This is paragraph 1</p>
-<p id="para1">This is paragraph 2</p>
-<p class="b">This is paragraph 3</p>
-<p>This is paragraph 4</p>
+    <p class="a">This is paragraph 1</p>
+    <p id="para1">This is paragraph 2</p>
+    <p class="b">This is paragraph 3</p>
+    <p class="b">This is paragraph 33</p>
+    <p>This is paragraph 4</p>
 </body>
+
+
 </html>
