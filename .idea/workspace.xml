@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f3470-0528-40d2-a65f-54277777ec33" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_retrieving/AttrFilters_finished.html" afterPath="$PROJECT_DIR$/02_retrieving/AttrFilters_finished.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_retrieving/BasicSelectors_start.htm" afterPath="$PROJECT_DIR$/02_retrieving/BasicSelectors_start.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01_overview/FirstjQueryPage_start.html" afterPath="$PROJECT_DIR$/01_overview/FirstjQueryPage_start.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playground.js" afterPath="$PROJECT_DIR$/playground.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_retrieving/HierCombo_start.html" afterPath="$PROJECT_DIR$/02_retrieving/HierCombo_start.html" />
     </list>
     <ignored path="lynda_jQuery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,21 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicSelectors_start.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02_retrieving/BasicSelectors_start.htm">
+      <file leaf-file-name="HierCombo_start.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02_retrieving/HierCombo_start.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24038461" vertical-offset="120" max-vertical-offset="930">
-              <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.5192308" vertical-offset="111" max-vertical-offset="750">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicSelectors_finished.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_retrieving/BasicSelectors_finished.htm">
+      <file leaf-file-name="BasicSelectors_start.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_retrieving/BasicSelectors_start.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="570">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="53" />
+            <state vertical-scroll-proportion="-6.875" vertical-offset="120" max-vertical-offset="930">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -75,6 +72,7 @@
         <option value="$PROJECT_DIR$/01_overview/FirstjQueryPage_start.html" />
         <option value="$PROJECT_DIR$/playground.js" />
         <option value="$PROJECT_DIR$/02_retrieving/BasicSelectors_start.htm" />
+        <option value="$PROJECT_DIR$/02_retrieving/HierCombo_start.html" />
       </list>
     </option>
   </component>
@@ -170,7 +168,7 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.BasicSelectors_start.htm">
+  <component name="RunManager" selected="JavaScript Debug.HierCombo_start.html">
     <configuration default="false" name="AttrFilters_finished.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/02_retrieving/AttrFilters_finished.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -182,6 +180,11 @@
       <method />
     </configuration>
     <configuration default="false" name="BasicSelectors_start.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/02_retrieving/BasicSelectors_start.htm">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HierCombo_start.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/02_retrieving/HierCombo_start.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -206,16 +209,18 @@
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.AttrFilters_finished.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.FirstjQueryPage_start.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.BasicSelectors_start.htm" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.HierCombo_start.html" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.BasicSelectors_start.htm" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.FirstjQueryPage_start.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.AttrFilters_finished.html" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.HierCombo_start.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.BasicSelectors_start.htm" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.FirstjQueryPage_start.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.AttrFilters_finished.html" />
       </list>
     </recent_temporary>
   </component>
@@ -325,6 +330,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/02_retrieving/BasicSelectors_finished.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="570">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/playground.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1020">
@@ -335,18 +348,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_retrieving/BasicSelectors_finished.htm">
+    <entry file="file://$PROJECT_DIR$/02_retrieving/BasicSelectors_start.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="570">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="53" />
+        <state vertical-scroll-proportion="-6.875" vertical-offset="120" max-vertical-offset="930">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_retrieving/BasicSelectors_start.htm">
+    <entry file="file://$PROJECT_DIR$/02_retrieving/HierCombo_start.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24038461" vertical-offset="120" max-vertical-offset="930">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.5192308" vertical-offset="111" max-vertical-offset="750">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>

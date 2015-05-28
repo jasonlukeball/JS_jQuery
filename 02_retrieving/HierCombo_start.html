@@ -6,6 +6,19 @@
 <script type="text/javascript" src="../jquery-1.9.1.js"></script>
 <script type="text/javascript">
     $("document").ready(function() {
+        // get p tags and li tags (with class b) and give orange border
+        $("p, li.b").css("border", "1px solid orange");
+
+        // get any lis that have class "a" that are inside a ul
+        $("ul li.a").css("border", "1px solid red");
+
+        // get the paragraph that's next to the unordered list and color blue
+        $("ul + p").css("color","blue");
+
+        // get all the paragraph siblings for list 1
+        //
+        $("#list1 ~ p").css("border", "2px solid black")
+
     });
 </script>
 <style type="text/css">
@@ -14,15 +27,18 @@
 </style>
 </head>
 <body>
+
 	<ul id="list1">
 		<li class="a">item 1</li>
 		<li class="a">item 2</li>
 		<li class="b">item 3</li>
 		<li class="b">item 4</li>
 	</ul>
-<p class="a">This is paragraph 1</p>
-<p id="para1">This is paragraph 2</p>
-<p class="b">This is paragraph 3</p>
-<p>This is paragraph 4</p>
+
+    <p class="a">This is paragraph 1</p>
+    <p id="para1">This is paragraph 2</p>
+    <p class="b">This is paragraph 3</p>
+    <p>This is paragraph 4</p>
+
 </body>
 </html>
