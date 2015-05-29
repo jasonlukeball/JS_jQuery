@@ -266,3 +266,24 @@ $("img").attr({ src: "images/Spring.jpg", title: "Yay for flowers!" });
 
 // Grab the last p tag and put it before the first
 //$("p:last").prependTo("p:first");
+
+
+
+// -----------------------------
+// WRAPPING CONTENT
+// -----------------------------
+
+// Wrap each individual p tags inside it's own div
+$("p").wrap("<div style='background-color: red; color: white'/>");
+
+// Wrap all p tags inside a single div
+$("p").wrapAll("<div style='background-color: red; color: white'/>");
+
+
+
+// -----------------------------
+// REMOVING CONTENT
+// -----------------------------
+
+// Remove the ul tags
+$("ul").empty();
