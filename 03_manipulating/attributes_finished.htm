@@ -6,11 +6,16 @@
 <script type="text/javascript" src="../jquery-1.9.1.js"></script>
 <script type="text/javascript">
     $("document").ready(function() {
-        //$("a").attr("target", "_blank");
 
-        //$("a").removeAttr("href");
+        // Give the grass image a tooltip
+        $("#grass").attr("title", "Yay for grass!");
 
-        //$("img").attr({ src: "images/Spring.jpg", alt: "spring" });
+        // remove the a tag's href attribute
+        $("a").removeAttr("href");
+
+        // give the img tag a different src attribute AND tooltip text
+        $("img").attr({ src: "images/Spring.jpg", title: "Yay for flowers!" });
+
     });
 </script>
 <style type="text/css">
@@ -22,6 +27,6 @@ img {
 </style>
 </head>
 <body>
-<a href="images/Grass.jpg"><img src="images/Grass.jpg" alt="image" /></a>
+<a href="images/Grass.jpg"><img id="grass" src="images/Grass.jpg" alt="image" /></a>
 </body>
 </html>

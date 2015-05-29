@@ -214,9 +214,9 @@ $("form :checkbox:checked").css("border", "3px solid red");
 
 
 
-// ---------------------
+// -----------------------------
 // MANIPULATING CONTENT
-// ---------------------
+// -----------------------------
 
 // Get the HTML for all elements inside the #list1 ul
 alert( $("#list1").html() ) ;
@@ -232,5 +232,18 @@ $("#para2").html(newParagraph);
 $("p:last").text("THIS IS NEW TEXT");
 
 
+
+// -----------------------------
+// MANIPULATING ATTRIBUTES
+// -----------------------------
+
+// Give the grass image a tooltip
+$("#grass").attr("title", "Yay for grass!");
+
+// remove the a tag's href attribute
+$("a").removeAttr("href");
+
+// give the img tag a different src attribute AND tooltip text
+$("img").attr({ src: "images/Spring.jpg", title: "Yay for flowers!" });
 
 
