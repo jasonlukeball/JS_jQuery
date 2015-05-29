@@ -214,6 +214,23 @@ $("form :checkbox:checked").css("border", "3px solid red");
 
 
 
+// ---------------------
+// MANIPULATING CONTENT
+// ---------------------
+
+// Get the HTML for all elements inside the #list1 ul
+alert( $("#list1").html() ) ;
+
+// Replace/change the html of the #list1 ul
+$("#list1").html("<h1>This WAS a ul</h1>");
+
+// Create a new p set the content of para2 to the new p
+var newParagraph = "<p>This is my NEW paragraph</p>";
+$("#para2").html(newParagraph);
+
+// Set the text content of the last paragraph
+$("p:last").text("THIS IS NEW TEXT");
+
 
 
 

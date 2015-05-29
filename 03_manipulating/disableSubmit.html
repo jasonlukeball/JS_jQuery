@@ -1,71 +1,65 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <title>Using Form Selectors and Filters</title>
+
     <script type="text/javascript" src="../jquery-1.9.1.js"></script>
+
     <script type="text/javascript">
-
-
-
         $("document").ready(function() {
-
-
-
-
-
-
-
-
-
 
             // Disable Submit Button By Default
             $("#Submit").attr('disabled','disabled');
 
-            // OnKeystroke for #FirstName
-            $(".myInputs").blur(function() {
-                if( !$(this).val() ) {
+            // OnKeystroke for #FirstName and #LastName
+            $(".myInputs").keyup(function() {
+
+                if( !$("#FirstName").val() || !$("#LastName").val()  ) {
+                    // If #FirstName or #LastName is empty
+                    // Disable the submit button
                     console.log("IS empty");
                     $('input[type="submit"]').attr( "disabled", "disabled" );
 
                 } else {
                     console.log("NOT empty");
+                    // #FirstName and #LastName are NOT empty
                     // Activate Submit Button
                     $('input[type="submit"]').removeAttr('disabled');
                 }
             });
 
-
         });
     </script>
 
-
-
-
-
 </head>
+
+
 <body>
 
-<h1>Disable Submit if inputs empty</h1>
-<form action="" method="post">
+    <h1>Disable Submit if inputs empty</h1>
+    <form action="" method="post">
 
-    <table class="style1">
-        <tbody>
-        <tr>
-            <td>Username</td>
-            <td><input class="myInputs" id="FirstName" type="text" /></td>
-        </tr>
+        <table class="style1">
+            <tbody>
+            <tr>
+                <!-- USERNAME FIELD -->
+                <td>Username</td>
+                <td><input class="myInputs" id="FirstName" type="text" /></td>
+            </tr>
 
-        <tr>
-            <td>Password</td>
-            <td><input class="myInputs" id="LastName" type="text" /></td>
-        </tr>
+            <tr>
+                <!-- PASSWORD FIELD -->
+                <td>Password</td>
+                <td><input class="myInputs" id="LastName" type="text" /></td>
+            </tr>
 
-        </tbody>
-    </table>
+            </tbody>
+        </table>
 
-    <input  id="Submit" type="submit" value="submit" />
+        <input  id="Submit" type="submit" value="submit" />
 
-</form>
+    </form>
+
 </body>
 </html>
