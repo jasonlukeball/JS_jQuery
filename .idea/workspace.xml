@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f3470-0528-40d2-a65f-54277777ec33" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_manipulating/attributes_finished.htm" afterPath="$PROJECT_DIR$/03_manipulating/attributes_finished.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playground.js" afterPath="$PROJECT_DIR$/playground.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_manipulating/attributes_start.htm" afterPath="$PROJECT_DIR$/03_manipulating/attributes_start.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lynda_jQuery.iws" />
@@ -32,8 +31,8 @@
       <file leaf-file-name="playground.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="3645">
-              <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3087" max-vertical-offset="3795">
+              <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -41,21 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="attributes_start.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="attributes_start.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03_manipulating/attributes_start.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.45673078" vertical-offset="0" max-vertical-offset="624">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="attributes_finished.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="attributes_finished.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03_manipulating/attributes_finished.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3846154" vertical-offset="0" max-vertical-offset="624">
-              <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="570">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="16" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -85,8 +84,9 @@
         <option value="$PROJECT_DIR$/03_manipulating/creating_finished.htm" />
         <option value="$PROJECT_DIR$/03_manipulating/creating_start.htm" />
         <option value="$PROJECT_DIR$/03_manipulating/disableSubmit.html" />
-        <option value="$PROJECT_DIR$/playground.js" />
         <option value="$PROJECT_DIR$/03_manipulating/attributes_finished.htm" />
+        <option value="$PROJECT_DIR$/playground.js" />
+        <option value="$PROJECT_DIR$/03_manipulating/attributes_start.htm" />
       </list>
     </option>
   </component>
@@ -215,13 +215,8 @@
       <recent name="$PROJECT_DIR$/03_manipulating" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.attributes_finished.htm">
+  <component name="RunManager" selected="JavaScript Debug.attributes_start.htm">
     <configuration default="false" name="disableSubmit.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/03_manipulating/disableSubmit.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="AutoPDFIcons_Finished.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/02_retrieving/AutoPDFIcons_Finished.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -237,6 +232,11 @@
       <method />
     </configuration>
     <configuration default="false" name="attributes_finished.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/03_manipulating/attributes_finished.htm">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="attributes_start.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/03_manipulating/attributes_start.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -263,18 +263,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.disableSubmit.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.AutoPDFIcons_Finished.htm" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.creating_finished.htm" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.creating_start.htm" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.attributes_finished.htm" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.creating_finished.htm" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.creating_start.htm" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.attributes_finished.htm" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.attributes_start.htm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.attributes_finished.htm" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.disableSubmit.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.creating_start.htm" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.creating_finished.htm" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.AutoPDFIcons_Finished.htm" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.attributes_start.htm" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.attributes_finished.htm" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.disableSubmit.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.creating_start.htm" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.creating_finished.htm" />
       </list>
     </recent_temporary>
   </component>
@@ -496,14 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_manipulating/attributes_start.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_retrieving/BasicSelectors_start.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.875" vertical-offset="120" max-vertical-offset="930">
@@ -522,8 +514,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playground.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="3645">
-          <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3087" max-vertical-offset="3795">
+          <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
@@ -532,8 +524,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03_manipulating/attributes_finished.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3846154" vertical-offset="0" max-vertical-offset="624">
-          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="570">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="16" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_manipulating/attributes_start.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45673078" vertical-offset="0" max-vertical-offset="624">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding />
         </state>
       </provider>
