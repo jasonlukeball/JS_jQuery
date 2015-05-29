@@ -3,17 +3,41 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Document</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="../jquery-1.9.1.js"></script>
 <script type="text/javascript">
     $("document").ready(function() {
+
+        // Add content to the end of each p tag
+        //$("p").append(" with some content appended");
+
+        // Add content to the start of each p tag
+        //$("p").prepend("Hello! ");
+
+        // Grab the third p tag and add after the first
+        //$("p:eq(2)").appendTo("p:first");
+
+        // Grab the last p tag and put it before the first
+        //$("p:last").prependTo("p:first");
+
     });
 </script>
 <style type="text/css">
 .a { color: Navy; }
 .b { color: Maroon; }
+p, li, h1 {font-family: 'Open Sans', sans-serif;}
+
+p.myClass
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 </style>
 </head>
 <body>
+<h1>Hello Google Font!</h1>
 	<ul id="list1">
 		<li class="a">item 1</li>
 		<li class="a">item 2</li>
@@ -24,5 +48,6 @@
 <p>This is paragraph 2</p>
 <p class="b">This is paragraph 3</p>
 <p>This is paragraph 4</p>
+<p class="myClass">THIS IS A NEW PARAGRAPH</p>
 </body>
 </html>

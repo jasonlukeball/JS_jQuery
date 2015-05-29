@@ -237,7 +237,10 @@ $("p:last").text("THIS IS NEW TEXT");
 // MANIPULATING ATTRIBUTES
 // -----------------------------
 
-// Give the grass image a tooltip
+// Make all links open in a new tab
+$("a").attr("target", "_blank");
+
+// Give the image a tooltip
 $("#grass").attr("title", "Yay for grass!");
 
 // remove the a tag's href attribute
@@ -247,3 +250,19 @@ $("a").removeAttr("href");
 $("img").attr({ src: "images/Spring.jpg", title: "Yay for flowers!" });
 
 
+
+// -----------------------------
+// INSERTING CONTENT
+// -----------------------------
+
+// Add content to the end of each p tag
+//$("p").append(" with some content appended");
+
+// Add content to the start of each p tag
+//$("p").prepend("Hello! ");
+
+// Grab the third p tag and add after the first
+//$("p:eq(2)").appendTo("p:first");
+
+// Grab the last p tag and put it before the first
+//$("p:last").prependTo("p:first");
