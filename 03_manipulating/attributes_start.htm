@@ -6,6 +6,16 @@
 <script type="text/javascript" src="../jquery-1.9.1.js"></script>
 <script type="text/javascript">
     $("document").ready(function() {
+
+        // Give the grass image a tooltip
+        $("#grass").attr("title", "Yay for grass!");
+
+        // remove the a tag's href attribute
+        $("a").removeAttr("href");
+
+        // give the img tag a different src attribute AND tooltip text
+        $("img").attr({ src: "images/Spring.jpg", title: "Yay for flowers!" });
+
     });
 </script>
 <style type="text/css">
