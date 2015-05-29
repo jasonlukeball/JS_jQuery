@@ -256,16 +256,16 @@ $("img").attr({ src: "images/Spring.jpg", title: "Yay for flowers!" });
 // -----------------------------
 
 // Add content to the end of each p tag
-//$("p").append(" with some content appended");
+$("p").append(" with some content appended");
 
 // Add content to the start of each p tag
-//$("p").prepend("Hello! ");
+$("p").prepend("Hello! ");
 
 // Grab the third p tag and add after the first
-//$("p:eq(2)").appendTo("p:first");
+$("p:eq(2)").appendTo("p:first");
 
 // Grab the last p tag and put it before the first
-//$("p:last").prependTo("p:first");
+$("p:last").prependTo("p:first");
 
 
 
