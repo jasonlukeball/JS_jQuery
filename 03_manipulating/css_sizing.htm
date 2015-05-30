@@ -5,14 +5,29 @@
     <script type="text/javascript" src="../jquery-1.9.1.js"></script>
     <script type="text/javascript">
         $(function() {
-            $("#height").html($("#theDiv").height());
+            // Tell me the details of #theDiv
             $("#width").html($("#theDiv").width());
+            $("#height").html($("#theDiv").height());
             $("#innerH").html($("#theDiv").innerHeight());
             $("#innerW").html($("#theDiv").innerWidth());
             $("#outerH").html($("#theDiv").outerHeight());
             $("#outerW").html($("#theDiv").outerWidth());
             $("#offset").html($("#theDiv").offset().top + ", " + $("#theDiv").offset().left);
             $("#position").html($("#theDiv").position().top + ", " + $("#theDiv").position().left);
+
+
+        $("#theDiv").width();
+        $("#theDiv").height();
+        $("#theDiv").innerHeight();
+        $("#theDiv").innerWidth();
+        $("#theDiv").outerHeight();
+        $("#theDiv").outerWidth();
+        $("#theDiv").offset().top;
+        $("#theDiv").offset().left;
+
+
+
+
         });
     </script>
     <style type="text/css">

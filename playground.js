@@ -282,8 +282,44 @@ $("p").wrapAll("<div style='background-color: red; color: white'/>");
 
 
 // -----------------------------
+// REPLACING CONTENT
+// -----------------------------
+
+// Replace all p tags with h1 tags
+$( "<h1>Hello</h1>" ).replaceAll( "p" );
+
+
+
+// -----------------------------
 // REMOVING CONTENT
 // -----------------------------
 
-// Remove the ul tags
+// Removes the selected element from the DOM
+//$("ul").remove();
+
+// Remove the child elements from the selected element
 $("ul").empty();
+
+
+
+// -----------------------------
+// CSS FUNCTIONS
+// -----------------------------
+
+
+// Give an h1 tag a css property of color and a value of red
+$("h1").css("color", "red");
+
+// get the css value of color and log it to the console
+// returns "rgb(255, 0, 0)" (red)
+console.log( $("h1").css("color") );
+
+// Get CSS Properties on #theDiv
+$("#theDiv").width();
+$("#theDiv").height();
+$("#theDiv").innerHeight();
+$("#theDiv").innerWidth();
+$("#theDiv").outerHeight();
+$("#theDiv").outerWidth();
+$("#theDiv").offset().top;
+$("#theDiv").offset().left;

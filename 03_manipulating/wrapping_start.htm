@@ -8,13 +8,26 @@
     $("document").ready(function() {
 
         // Wrap each individual p tags inside it's own div
-        $("p").wrap("<div style='background-color: red; color: white'/>");
+        //$("p").wrap("<div style='background-color: red; color: white'/>");
 
         // Wrap all p tags inside a single div
-        $("p").wrapAll("<div style='background-color: red; color: white'/>");
+        //$("p").wrapAll("<div style='background-color: red; color: white'/>");
 
-        // Remove the ul tags
-        $("ul").empty();
+        // Remove the child elements from ul tags
+        //$("ul").empty();
+
+        // Removes the selected element from the DOM
+        //$("ul").remove();
+
+        // Wrap all the tags within the ul (as a group) within an a tag
+        //$("ul").wrapInner("<a href=\"http://www.google.com\"></a>");
+
+        // Replace all p tags with h1 tags
+        //$( "<h1>Hello</h1>" ).replaceAll( "p" );
+
+
+        $("ul").clone(true);
+
 
     });
 </script>
