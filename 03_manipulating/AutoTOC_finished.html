@@ -5,8 +5,18 @@
     <script type="text/javascript" src="../jquery-1.9.1.js"></script>
     <script type="text/javascript">
         $("document").ready(function() {
+
+            // ----------------------------------------
+            // Create Automatic links for all h3 tags
+            // ----------------------------------------
+
+            // When the document loads, call the buildBookmarks function on h3 tags
+            // The "header" argument/parameter is the id of the div we want to append our links to
+
             buildBookmarks('h3', 'header');
+
         });
+
 
         function buildBookmarks(strWhichTag, sBookMarkNode) {
             var cAnchorCount = 0;
@@ -24,6 +34,11 @@
             // now find the ID of the bookmark container and append it
             $("#" + sBookMarkNode).append(oList);
         }
+
+
+
+
+
     </script>
 </head>
 <body>

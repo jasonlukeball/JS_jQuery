@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f3470-0528-40d2-a65f-54277777ec33" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_manipulating/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_manipulating/css_sizing.htm" afterPath="$PROJECT_DIR$/03_manipulating/css_sizing.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_manipulating/AutoTOC_finished.html" afterPath="$PROJECT_DIR$/03_manipulating/AutoTOC_finished.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playground.js" afterPath="$PROJECT_DIR$/playground.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_manipulating/wrapping_start.htm" afterPath="$PROJECT_DIR$/03_manipulating/wrapping_start.htm" />
     </list>
     <ignored path="lynda_jQuery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,35 +29,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="playground.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="playground.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playground.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4092" max-vertical-offset="4815">
-              <caret line="316" column="0" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.9074074" vertical-offset="4287" max-vertical-offset="4965">
+              <caret line="327" column="0" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
-                <marker date="1432954997000" expanded="true" signature="7387:7422" placeholder="..." />
-                <marker date="1432954997000" expanded="true" signature="7497:7532" placeholder="..." />
+                <marker date="1433058562000" expanded="true" signature="7387:7422" placeholder="..." />
+                <marker date="1433058562000" expanded="true" signature="7497:7532" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css_sizing.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03_manipulating/css_sizing.htm">
+      <file leaf-file-name="AutoTOC_start.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03_manipulating/AutoTOC_start.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43269232" vertical-offset="0" max-vertical-offset="1020">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="25" selection-end-column="35" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="5940">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03_manipulating/test.html">
+      <file leaf-file-name="AutoTOC_finished.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03_manipulating/AutoTOC_finished.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="555">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="20" selection-end-column="44" />
+            <state vertical-scroll-proportion="-2.875" vertical-offset="6" max-vertical-offset="6390">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -94,8 +92,9 @@
         <option value="$PROJECT_DIR$/03_manipulating/inserting_start.htm" />
         <option value="$PROJECT_DIR$/03_manipulating/wrapping_start.htm" />
         <option value="$PROJECT_DIR$/03_manipulating/test.html" />
-        <option value="$PROJECT_DIR$/playground.js" />
         <option value="$PROJECT_DIR$/03_manipulating/css_sizing.htm" />
+        <option value="$PROJECT_DIR$/03_manipulating/AutoTOC_finished.html" />
+        <option value="$PROJECT_DIR$/playground.js" />
       </list>
     </option>
   </component>
@@ -210,17 +209,7 @@
       <recent name="$PROJECT_DIR$/03_manipulating" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.css_sizing.htm">
-    <configuration default="false" name="attributes_start.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/03_manipulating/attributes_start.htm">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="inserting_start.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/03_manipulating/inserting_start.htm">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.AutoTOC_start.html">
     <configuration default="false" name="wrapping_start.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/03_manipulating/wrapping_start.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -232,6 +221,16 @@
       <method />
     </configuration>
     <configuration default="false" name="css_sizing.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/03_manipulating/css_sizing.htm">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AutoTOC_finished.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/03_manipulating/AutoTOC_finished.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AutoTOC_start.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/03_manipulating/AutoTOC_start.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -257,19 +256,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.attributes_start.htm" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.inserting_start.htm" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.wrapping_start.htm" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.css_sizing.htm" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.wrapping_start.htm" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.css_sizing.htm" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.AutoTOC_finished.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.AutoTOC_start.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.css_sizing.htm" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.wrapping_start.htm" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.inserting_start.htm" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.attributes_start.htm" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.AutoTOC_start.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.AutoTOC_finished.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.css_sizing.htm" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.wrapping_start.htm" />
       </list>
     </recent_temporary>
   </component>
@@ -558,31 +557,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/03_manipulating/css_sizing.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_manipulating/AutoTOC_start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5940">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03_manipulating/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="555">
+        <state vertical-scroll-proportion="0.36057693" vertical-offset="0" max-vertical-offset="624">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="20" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_manipulating/AutoTOC_finished.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.875" vertical-offset="6" max-vertical-offset="6390">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/playground.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4092" max-vertical-offset="4815">
-          <caret line="316" column="0" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9074074" vertical-offset="4287" max-vertical-offset="4965">
+          <caret line="327" column="0" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <marker date="1432954997000" expanded="true" signature="7387:7422" placeholder="..." />
-            <marker date="1432954997000" expanded="true" signature="7497:7532" placeholder="..." />
+            <marker date="1433058562000" expanded="true" signature="7387:7422" placeholder="..." />
+            <marker date="1433058562000" expanded="true" signature="7497:7532" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_manipulating/css_sizing.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43269232" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="25" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
