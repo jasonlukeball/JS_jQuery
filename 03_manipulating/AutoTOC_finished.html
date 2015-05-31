@@ -26,10 +26,15 @@
 
             // for each one of the header tags, create a new named anchor and insert it into
             // the header tag. Then add a new link to the list that points to the named anchor
-            $("div:not([id=header]) " + strWhichTag).each(function() {
-                $(this).html("<a name='bookmark" + cAnchorCount + "'></a>" + $(this).html());
-                oList.append($("<li><a href='#bookmark" + cAnchorCount++ + "'> " + $(this).text() + "</a></li>"));
-            });
+
+            // Get me all the divs (except the one with id="header") and get the h3 inside each (this is the strWhichTag part)
+            $("div:not([id=header]) " + strWhichTag).each(
+                    function() {
+                        // Set a property on each h3 tag to link to using the a name attribute
+                        $(this).html("<a name='bookmark" + cAnchorCount + "'></a>" + $(this).html());
+                        // Create a list item to link to the above a name tag
+                        oList.append($("<li><a href='#bookmark" + cAnchorCount++ + "'> " + $(this).text() + "</a></li>"));
+                    });
 
             // now find the ID of the bookmark container and append it
             $("#" + sBookMarkNode).append(oList);
