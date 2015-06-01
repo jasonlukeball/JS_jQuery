@@ -325,3 +325,16 @@ $("#theDiv").offset().top;
 $("#theDiv").offset().left;
 
 
+
+
+// -----------------------------
+// EVENTS
+// -----------------------------
+
+// Binding / Unbinding
+
+// Unified Event Object
+
+// Convenience Features
+
+

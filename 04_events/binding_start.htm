@@ -4,10 +4,45 @@
 <head>
     <title>Binding and Unbinding Events with jQuery</title>
     <script type="text/javascript" src="../jquery-1.9.1.js"></script>
+
+
     <script type="text/javascript">
+
+
         $(function() {
+
+            // When mousing over or mousing off the div run the highlight function to toggle the highlight class
+            $("#evtTarget").on("mouseover mouseleave", highlight);
+            //$("target").on("event1 event2", functionToCall);
+            // events are seperated by spaces
+
+            // When clicking the div run the turnOffAndGiveFeedback function to disable the mouse events and give feedback
+            $("#evtTarget").on("click", turnOffAndGiveFeedback);
         });
+
+
+        // ----------
+        // FUNCTIONS
+        // ----------
+
+
+        function highlight() {
+            $("#evtTarget").toggleClass("highlighted");
+        }
+
+
+        function turnOffAndGiveFeedback() {
+            // When clicking on the div, turn off the mouseover/mouseleave event handler
+            $("#evtTarget").off("mouseover mouseleave", highlight);
+            // Set the text with some feedback
+            $("#evtTarget").html("<p>You clicked and shut off the hover effect!</p>");
+        }
+
+
+
     </script>
+
+
     <style type='text/css'>
     .normal {
         width:300px;
