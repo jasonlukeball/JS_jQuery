@@ -5,8 +5,11 @@
     <title>Using Event Helpers</title>
     <script type="text/javascript" src="../jquery-1.9.1.js"></script>
     <script type="text/javascript">
+
+
         $(function() {
-            $("#evtTarget").hover(highlight, highlight);
+            // Hover Event
+            $("#evtTarget").hover(highlight);
 
             $("#evtTarget").click(fnClick1);
             $("#evtTarget").dblclick(fnClick2);
@@ -21,7 +24,14 @@
         function fnClick2() {
             $("#evtTarget").html("Double Click!");
         }
+
+
     </script>
+
+
+
+
+
     <style type='text/css'>
     .normal {
         width:300px;

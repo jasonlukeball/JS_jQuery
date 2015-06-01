@@ -331,10 +331,23 @@ $("#theDiv").offset().left;
 // EVENTS
 // -----------------------------
 
-// Binding / Unbinding
+// Mouseover / Mouseleave (this will do the same as hover in this case)
+$("#evtTarget").on("mouseover mouseleave", function() {
+    $("#evtTarget").toggleClass("highlighted");
+});
 
-// Unified Event Object
+// Hover Event
+$("#evtTarget").hover(function() {
+    $("#evtTarget").toggleClass("highlighted");
+});
 
-// Convenience Features
+// Click Event
+$("#evtTarget").click(function() {
+    $("#evtTarget").html("Single Click!");
+});
 
+// Double Click Event
+$("#evtTarget").dblclick(function() {
+    $("#evtTarget").html("Double Click!");
+});
 
