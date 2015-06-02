@@ -384,19 +384,38 @@ $("#toggle").click(function() {
 $("#fadein").click(function() {
     $("#theDiv").fadeIn("normal");
 });
+
 // Fade out
 $("#fadeout").click(function() {
     $("#theDiv").fadeOut("normal");
 });
+
 // Fade to 40% Opacity
 $("#fadeto3").click(function() {
     $("#theDiv").fadeTo("slow", 0.4);
 });
+
 // Fade to 100% Opacity
 $("#fadeup").click(function() {
     $("#theDiv").fadeTo("slow", 1.0);
 });
 
 
-//
+// Slide Elements
 // ----------------------
+
+// Slide up
+$("#slideup").click(function() {
+    $("#theDiv").slideUp("normal");
+});
+
+// Slide down
+$("#slidedown").click(function() {
+    $("#theDiv").slideDown("normal");
+});
+
+// Slide Toggle
+$("#toggle").click(function() {
+    $("#theDiv").slideToggle("slow");
+});
+

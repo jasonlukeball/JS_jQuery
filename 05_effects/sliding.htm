@@ -5,14 +5,20 @@
     <script type="text/javascript" src="../jquery-1.9.1.js"></script>
     <script type="text/javascript">
         $(function() {
+
+            // Slide up
             $("#slideup").click(function() {
                 $("#theDiv").slideUp("normal");
             });
+
+            // Slide down
             $("#slidedown").click(function() {
                 $("#theDiv").slideDown("normal");
             });
+
+            // Slide Toggle
             $("#toggle").click(function() {
-                $("#theDiv").slideToggle("slow");
+                $("#theDiv").slideToggle("fast");
             });
         });
     </script>
