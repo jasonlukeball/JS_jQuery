@@ -6,21 +6,31 @@
     <script type="text/javascript">
         $(function() {
 
+            // Speeds can be duration, or "slow", "normal" or "fast"
+            // Callbacks can be used to perform other UI changes after the event
+
             // Show theDiv
             $("#show").click(function() {
-                $("#theDiv").show("normal");
+                $("#theDiv").show(100);
             });
 
             // Hide theDiv
             $("#hide").click(function() {
-                $("#theDiv").hide("normal");
+                $("#theDiv").hide(100);
             });
 
             // Toggle Show/Hide theDiv
             $("#toggle").click(function() {
-                $("#theDiv").toggle("slow");
+                $("#theDiv").toggle("fast", callbackFunction);
+
             });
         });
+
+
+        callbackFunction = function() {
+            console.log ("toggle callback was run");
+        }
+
     </script>
     <style type="text/css">
         div#theDiv {

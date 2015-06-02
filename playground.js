@@ -357,6 +357,10 @@ $("#evtTarget").dblclick(function() {
 // ANIMATION
 // -----------------------------
 
+
+// Show / Hide Elements
+// ----------------------
+
 // Show theDiv
 $("#show").click(function() {
     $("#theDiv").show("normal");
@@ -371,3 +375,11 @@ $("#hide").click(function() {
 $("#toggle").click(function() {
     $("#theDiv").toggle("slow");
 });
+
+
+//
+// ----------------------
+
+
+//
+// ----------------------

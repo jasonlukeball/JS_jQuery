@@ -28,25 +28,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="playground.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="playground.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7222222" vertical-offset="4812" max-vertical-offset="5640">
-              <caret line="354" column="0" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="5022" max-vertical-offset="5820">
+              <caret line="383" column="2" selection-start-line="383" selection-start-column="2" selection-end-line="383" selection-end-column="2" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
-                <marker date="1433244274000" expanded="true" signature="7387:7422" placeholder="..." />
-                <marker date="1433244274000" expanded="true" signature="7497:7532" placeholder="..." />
+                <marker date="1433244402000" expanded="true" signature="7387:7422" placeholder="..." />
+                <marker date="1433244402000" expanded="true" signature="7497:7532" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showhide.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="showhide.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/05_effects/showhide.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.75" vertical-offset="6" max-vertical-offset="870">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="21" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.21634616" vertical-offset="0" max-vertical-offset="1020">
+              <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -92,8 +92,8 @@
         <option value="$PROJECT_DIR$/04_events/miscevents_finished.htm" />
         <option value="$PROJECT_DIR$/04_events/tablestripe_finished.html" />
         <option value="$PROJECT_DIR$/04_events/tablestripe_start.html" />
-        <option value="$PROJECT_DIR$/05_effects/showhide.htm" />
         <option value="$PROJECT_DIR$/playground.js" />
+        <option value="$PROJECT_DIR$/05_effects/showhide.htm" />
       </list>
     </option>
   </component>
@@ -654,23 +654,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_effects/showhide.htm">
+    <entry file="file://$PROJECT_DIR$/playground.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.75" vertical-offset="6" max-vertical-offset="870">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="21" selection-end-column="15" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="5022" max-vertical-offset="5820">
+          <caret line="383" column="2" selection-start-line="383" selection-start-column="2" selection-end-line="383" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+            <marker date="1433244402000" expanded="true" signature="7387:7422" placeholder="..." />
+            <marker date="1433244402000" expanded="true" signature="7497:7532" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playground.js">
+    <entry file="file://$PROJECT_DIR$/05_effects/showhide.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7222222" vertical-offset="4812" max-vertical-offset="5640">
-          <caret line="354" column="0" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-            <marker date="1433244274000" expanded="true" signature="7387:7422" placeholder="..." />
-            <marker date="1433244274000" expanded="true" signature="7497:7532" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.21634616" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>
