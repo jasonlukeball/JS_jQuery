@@ -351,3 +351,23 @@ $("#evtTarget").dblclick(function() {
     $("#evtTarget").html("Double Click!");
 });
 
+
+
+// -----------------------------
+// ANIMATION
+// -----------------------------
+
+// Show theDiv
+$("#show").click(function() {
+    $("#theDiv").show("normal");
+});
+
+// Hide theDiv
+$("#hide").click(function() {
+    $("#theDiv").hide("normal");
+});
+
+// Toggle Show/Hide theDiv
+$("#toggle").click(function() {
+    $("#theDiv").toggle("slow");
+});

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f3470-0528-40d2-a65f-54277777ec33" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_events/tablestripe_start.html" afterPath="$PROJECT_DIR$/04_events/tablestripe_start.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playground.js" afterPath="$PROJECT_DIR$/playground.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_effects/showhide.htm" afterPath="$PROJECT_DIR$/05_effects/showhide.htm" />
     </list>
     <ignored path="lynda_jQuery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,35 +28,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="playground.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="playground.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playground.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4302" max-vertical-offset="5355">
-              <caret line="310" column="8" selection-start-line="310" selection-start-column="8" selection-end-line="310" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.7222222" vertical-offset="4812" max-vertical-offset="5640">
+              <caret line="354" column="0" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
-                <marker date="1433123458000" expanded="true" signature="7387:7422" placeholder="..." />
-                <marker date="1433123458000" expanded="true" signature="7497:7532" placeholder="..." />
+                <marker date="1433244274000" expanded="true" signature="7387:7422" placeholder="..." />
+                <marker date="1433244274000" expanded="true" signature="7497:7532" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tablestripe_start.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04_events/tablestripe_start.html">
+      <file leaf-file-name="showhide.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_effects/showhide.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66021127" vertical-offset="60" max-vertical-offset="2085">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tablestripe_finished.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04_events/tablestripe_finished.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="1950">
-              <caret line="27" column="12" selection-start-line="25" selection-start-column="10" selection-end-line="27" selection-end-column="12" />
+            <state vertical-scroll-proportion="-4.75" vertical-offset="6" max-vertical-offset="870">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="21" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -97,12 +87,13 @@
         <option value="$PROJECT_DIR$/04_events/binding_start.htm" />
         <option value="$PROJECT_DIR$/04_events/helpers_finished.htm" />
         <option value="$PROJECT_DIR$/04_events/helpers_start.htm" />
-        <option value="$PROJECT_DIR$/playground.js" />
         <option value="$PROJECT_DIR$/04_events/eventobj_finished.htm" />
         <option value="$PROJECT_DIR$/04_events/eventobj_start.htm" />
         <option value="$PROJECT_DIR$/04_events/miscevents_finished.htm" />
         <option value="$PROJECT_DIR$/04_events/tablestripe_finished.html" />
         <option value="$PROJECT_DIR$/04_events/tablestripe_start.html" />
+        <option value="$PROJECT_DIR$/05_effects/showhide.htm" />
+        <option value="$PROJECT_DIR$/playground.js" />
       </list>
     </option>
   </component>
@@ -179,7 +170,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="04_events" />
+              <option name="myItemId" value="05_effects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -203,12 +194,7 @@
       <recent name="$PROJECT_DIR$/03_manipulating" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.tablestripe_start.html">
-    <configuration default="false" name="helpers_start.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/04_events/helpers_start.htm">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.showhide.htm">
     <configuration default="false" name="eventobj_finished.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/04_events/eventobj_finished.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -225,6 +211,11 @@
       <method />
     </configuration>
     <configuration default="false" name="tablestripe_start.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/04_events/tablestripe_start.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="showhide.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/05_effects/showhide.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -250,19 +241,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.helpers_start.htm" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.eventobj_finished.htm" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.miscevents_finished.htm" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_finished.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_start.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.eventobj_finished.htm" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.miscevents_finished.htm" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_finished.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_start.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.showhide.htm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_start.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_finished.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.miscevents_finished.htm" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.eventobj_finished.htm" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.helpers_start.htm" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.showhide.htm" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_start.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_finished.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.miscevents_finished.htm" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.eventobj_finished.htm" />
       </list>
     </recent_temporary>
   </component>
@@ -647,18 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playground.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4302" max-vertical-offset="5355">
-          <caret line="310" column="8" selection-start-line="310" selection-start-column="8" selection-end-line="310" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-            <marker date="1433123458000" expanded="true" signature="7387:7422" placeholder="..." />
-            <marker date="1433123458000" expanded="true" signature="7497:7532" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04_events/tablestripe_finished.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="1950">
@@ -669,9 +648,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04_events/tablestripe_start.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66021127" vertical-offset="60" max-vertical-offset="2085">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.7922535" vertical-offset="60" max-vertical-offset="2085">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_effects/showhide.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.75" vertical-offset="6" max-vertical-offset="870">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="21" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7222222" vertical-offset="4812" max-vertical-offset="5640">
+          <caret line="354" column="0" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+            <marker date="1433244274000" expanded="true" signature="7387:7422" placeholder="..." />
+            <marker date="1433244274000" expanded="true" signature="7497:7532" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
