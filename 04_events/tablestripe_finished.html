@@ -4,30 +4,40 @@
 <head>
 <title>Striping/Hover Highlighting a Table</title>
   <script type="text/javascript" src="../jquery-1.9.1.js"></script>
+
+
   <script type="text/javascript">
+
       $(function() {
+          // Style even rows
           $("#theList tr:even").addClass("stripe1");
+          // Style odd rows
           $("#theList tr:odd").addClass("stripe2");
 
+          // Set hover styling
           $("#theList tr").hover(
               function() {
-                  $(this).toggleClass("highlight");
-              },
-              function() {
+                  // Style the current table row
                   $(this).toggleClass("highlight");
               }
           );
 
+          // When clicking a table row, show the details in an alert
           $("#theList").on("click", "tr", function showText (evt) {
             alert($(this).text());
           })
+
       });
+
+
   </script>
+
+
   <style type="text/css">
   th,td {
   	font-family: Verdana, Arial, Helvetica, sans-serif;
   	font-size: 18px;
-  	color: #000000;
+  	color: white;
   }
   tr {
   	border: 1px solid gray;
@@ -47,10 +57,10 @@
   	cursor:pointer;
   }
   .stripe1 {
-      background-color:#0f0;
+      background-color: gray;
   }
   .stripe2 {
-      background-color:#afa;
+      background-color: darkgray;
   }
   .highlight {
       background-color: #ffcc00;

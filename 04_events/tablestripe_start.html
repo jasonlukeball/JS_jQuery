@@ -5,14 +5,55 @@
 <title>Striping/Hover Highlighting a Table</title>
 <script type="text/javascript" src="../jquery-1.9.1.js"></script>
 <script type="text/javascript">
+
+
+
     $(function() {
+
+        // Style even rows
+        $("#theList tr:even").addClass("evenRows");
+
+        // Style odd rows
+        $("#theList tr:odd").addClass("oddRows");
+
+        // Hover effect
+        $("#theList tr").hover(
+                function() {
+                    // Style the current row
+                    $(this).toggleClass("hover");
+                });
+
+        // Click event
+
+        $("#theList").on("click", "tr", function showText () {
+            alert($(this).text());
+        })
+
+
+
+
+
+
+
+
+
+
+
+
     });
+
+
+
 </script>
+
+
+
+
 <style type="text/css">
 th,td {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 18px;
-	color: #000000;
+	color: white;
 }
 tr {
 	border: 1px solid gray;
@@ -31,6 +72,22 @@ table {
 .clickable {
 	cursor:pointer;
 }
+
+
+.evenRows {
+    background-color: lightcoral;
+}
+
+
+.oddRows {
+    background-color: indianred;
+}
+
+
+.hover {
+    background-color: lightsalmon;
+}
+
 </style>
 </head>
 <body>
