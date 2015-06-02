@@ -377,8 +377,25 @@ $("#toggle").click(function() {
 });
 
 
-//
+// Fade Elements
 // ----------------------
+
+// Fade in
+$("#fadein").click(function() {
+    $("#theDiv").fadeIn("normal");
+});
+// Fade out
+$("#fadeout").click(function() {
+    $("#theDiv").fadeOut("normal");
+});
+// Fade to 40% Opacity
+$("#fadeto3").click(function() {
+    $("#theDiv").fadeTo("slow", 0.4);
+});
+// Fade to 100% Opacity
+$("#fadeup").click(function() {
+    $("#theDiv").fadeTo("slow", 1.0);
+});
 
 
 //
