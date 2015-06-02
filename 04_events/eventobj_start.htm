@@ -6,6 +6,11 @@
     <script type="text/javascript" src="../jquery-1.9.1.js"></script>
     <script type="text/javascript">
         $(function() {
+            // Capture click location
+            $("div").click(function(evt) {
+                $(this).html("pageX: " + evt.pageX + ", pageY: " + evt.pageY + ", type: " + evt.type + ", target: " +
+                evt.target);
+
         });
     </script>
     <style type='text/css'>

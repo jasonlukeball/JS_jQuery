@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f3470-0528-40d2-a65f-54277777ec33" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_events/binding_finished.htm" afterPath="$PROJECT_DIR$/04_events/binding_finished.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_events/helpers_finished.htm" afterPath="$PROJECT_DIR$/04_events/helpers_finished.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_events/helpers_start.htm" afterPath="$PROJECT_DIR$/04_events/helpers_start.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playground.js" afterPath="$PROJECT_DIR$/playground.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_events/eventobj_finished.htm" afterPath="$PROJECT_DIR$/04_events/eventobj_finished.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lynda_jQuery.iws" />
@@ -34,32 +31,32 @@
       <file leaf-file-name="playground.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4557" max-vertical-offset="5205">
-              <caret line="339" column="0" selection-start-line="339" selection-start-column="0" selection-end-line="341" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4617" max-vertical-offset="5355">
+              <caret line="333" column="71" selection-start-line="333" selection-start-column="71" selection-end-line="333" selection-end-column="71" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
-                <marker date="1433120955000" expanded="true" signature="7387:7422" placeholder="..." />
-                <marker date="1433120955000" expanded="true" signature="7497:7532" placeholder="..." />
+                <marker date="1433123458000" expanded="true" signature="7387:7422" placeholder="..." />
+                <marker date="1433123458000" expanded="true" signature="7497:7532" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers_start.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04_events/helpers_start.htm">
+      <file leaf-file-name="eventobj_start.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_events/eventobj_start.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45673078" vertical-offset="0" max-vertical-offset="795">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="495">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers_finished.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04_events/helpers_finished.htm">
+      <file leaf-file-name="eventobj_finished.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_events/eventobj_finished.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="870">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.5048077" vertical-offset="0" max-vertical-offset="624">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -98,9 +95,10 @@
         <option value="$PROJECT_DIR$/03_manipulating/AutoTOC_finished.html" />
         <option value="$PROJECT_DIR$/04_events/binding_finished.htm" />
         <option value="$PROJECT_DIR$/04_events/binding_start.htm" />
-        <option value="$PROJECT_DIR$/playground.js" />
         <option value="$PROJECT_DIR$/04_events/helpers_finished.htm" />
         <option value="$PROJECT_DIR$/04_events/helpers_start.htm" />
+        <option value="$PROJECT_DIR$/playground.js" />
+        <option value="$PROJECT_DIR$/04_events/eventobj_finished.htm" />
       </list>
     </option>
   </component>
@@ -201,12 +199,7 @@
       <recent name="$PROJECT_DIR$/03_manipulating" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.helpers_finished.htm">
-    <configuration default="false" name="AutoTOC_finished.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/03_manipulating/AutoTOC_finished.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.eventobj_finished.htm">
     <configuration default="false" name="binding_start.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/04_events/binding_start.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -223,6 +216,11 @@
       <method />
     </configuration>
     <configuration default="false" name="helpers_finished.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/04_events/helpers_finished.htm">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="eventobj_finished.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/04_events/eventobj_finished.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -248,19 +246,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.AutoTOC_finished.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.binding_start.htm" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.binding_finished.htm" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.helpers_start.htm" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.helpers_finished.htm" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.binding_start.htm" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.binding_finished.htm" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.helpers_start.htm" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.helpers_finished.htm" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.eventobj_finished.htm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.helpers_finished.htm" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.eventobj_finished.htm" />
         <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.helpers_start.htm" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.binding_finished.htm" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.binding_start.htm" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.AutoTOC_finished.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.helpers_finished.htm" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.binding_finished.htm" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.binding_start.htm" />
       </list>
     </recent_temporary>
   </component>
@@ -597,21 +595,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playground.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4557" max-vertical-offset="5205">
-          <caret line="339" column="0" selection-start-line="339" selection-start-column="0" selection-end-line="341" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-            <marker date="1433120955000" expanded="true" signature="7387:7422" placeholder="..." />
-            <marker date="1433120955000" expanded="true" signature="7497:7532" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04_events/helpers_finished.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="870">
+        <state vertical-scroll-proportion="0.33653846" vertical-offset="0" max-vertical-offset="870">
           <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
           <folding />
         </state>
@@ -619,8 +605,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04_events/helpers_start.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45673078" vertical-offset="0" max-vertical-offset="795">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.5769231" vertical-offset="0" max-vertical-offset="795">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4617" max-vertical-offset="5355">
+          <caret line="333" column="71" selection-start-line="333" selection-start-column="71" selection-end-line="333" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+            <marker date="1433123458000" expanded="true" signature="7387:7422" placeholder="..." />
+            <marker date="1433123458000" expanded="true" signature="7497:7532" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_events/eventobj_start.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_events/eventobj_finished.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5048077" vertical-offset="0" max-vertical-offset="624">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding />
         </state>
       </provider>
