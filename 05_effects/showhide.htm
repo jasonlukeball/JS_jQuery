@@ -11,18 +11,17 @@
 
             // Show theDiv
             $("#show").click(function() {
-                $("#theDiv").show(100);
+                $("#theDiv").show("slow");
             });
 
             // Hide theDiv
             $("#hide").click(function() {
-                $("#theDiv").hide(100);
+                $("#theDiv").hide("normal");
             });
 
             // Toggle Show/Hide theDiv
             $("#toggle").click(function() {
                 $("#theDiv").toggle("fast", callbackFunction);
-
             });
         });
 
