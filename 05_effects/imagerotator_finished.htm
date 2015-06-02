@@ -4,18 +4,28 @@
     <title>jQuery Image Rotator</title>
     <script type="text/javascript" src="../jquery-1.9.1.js"></script>
     <script type="text/javascript">
+
+
         $(function() {
             // create the image rotator
             setInterval("rotateImages()", 2000);
         });
 
         function rotateImages() {
+            // Get the div with the "current" class
             var oCurPhoto = $('#photoShow div.current');
+
+            // Get the next div from #photoShow (the next sibling from current)
             var oNxtPhoto = oCurPhoto.next();
+
+            // If we are on the 4th div/photo there is no next so we reset it back to the first
             if (oNxtPhoto.length == 0)
                 oNxtPhoto = $('#photoShow div:first');
 
+            // Remove the current class and add the previous class
             oCurPhoto.removeClass('current').addClass('previous');
+
+            // Do the CSS animation to change the opacity
             oNxtPhoto.css({ opacity: 0.0 }).addClass('current').animate({ opacity: 1.0 }, 1000,
                 function() {
                     oCurPhoto.removeClass('previous');

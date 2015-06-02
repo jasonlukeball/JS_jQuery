@@ -20,7 +20,15 @@
             $("#toggle").click(function() {
                 $("#theDiv").animate({ left: "500" }, 1000, "swing");
             });
+
+            // Do all the above animations
+            $("#doAll").click(function() {
+                $("#theDiv").animate({width: "500px", fontSize: "24pt", left: "500"}, "fast", "swing")
+            });
+
+
         });
+
     </script>
     <style type="text/css">
         div#theDiv {
@@ -48,5 +56,7 @@
     <button id="right">Grow Right</button>
     <button id="text">Big Text</button>
     <button id="toggle">Move Div</button>
+    <button id="doAll">Do All</button>
+
 </body>
 </html>
