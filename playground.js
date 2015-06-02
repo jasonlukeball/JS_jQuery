@@ -419,3 +419,21 @@ $("#toggle").click(function() {
     $("#theDiv").slideToggle("slow");
 });
 
+
+// Animate CSS Changes
+// ----------------------
+
+// Change the width of the div
+$("#right").click(function() {
+    $("#theDiv").animate({ width: "500px" }, 1000);
+});
+
+// Change the font size
+$("#text").click(function() {
+    $("#theDiv").animate({ fontSize: "24pt" }, 1000);
+});
+
+// Move the div to left: 500
+$("#toggle").click(function() {
+    $("#theDiv").animate({ left: "500" }, 1000, "swing");
+});

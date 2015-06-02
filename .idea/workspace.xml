@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f3470-0528-40d2-a65f-54277777ec33" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_effects/fadeeffect.htm" afterPath="$PROJECT_DIR$/05_effects/fadeeffect.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_effects/animating.htm" afterPath="$PROJECT_DIR$/05_effects/animating.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playground.js" afterPath="$PROJECT_DIR$/playground.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_effects/sliding.htm" afterPath="$PROJECT_DIR$/05_effects/sliding.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lynda_jQuery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,22 +32,42 @@
       <file leaf-file-name="playground.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5667" max-vertical-offset="6375">
-              <caret line="421" column="0" selection-start-line="421" selection-start-column="0" selection-end-line="421" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2442" max-vertical-offset="6630">
+              <caret line="422" column="22" selection-start-line="422" selection-start-column="22" selection-end-line="422" selection-end-column="22" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
-                <marker date="1433245262000" expanded="true" signature="7387:7422" placeholder="..." />
-                <marker date="1433245262000" expanded="true" signature="7497:7532" placeholder="..." />
+                <marker date="1433245515000" expanded="true" signature="7387:7422" placeholder="..." />
+                <marker date="1433245515000" expanded="true" signature="7497:7532" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sliding.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sliding.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05_effects/sliding.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48076922" vertical-offset="0" max-vertical-offset="870">
+            <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="870">
               <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animating.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05_effects/animating.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0961539" vertical-offset="96" max-vertical-offset="870">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttrFilters_finished.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_retrieving/AttrFilters_finished.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="600">
+              <caret line="11" column="69" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -95,8 +115,9 @@
         <option value="$PROJECT_DIR$/04_events/tablestripe_start.html" />
         <option value="$PROJECT_DIR$/05_effects/showhide.htm" />
         <option value="$PROJECT_DIR$/05_effects/fadeeffect.htm" />
-        <option value="$PROJECT_DIR$/playground.js" />
         <option value="$PROJECT_DIR$/05_effects/sliding.htm" />
+        <option value="$PROJECT_DIR$/playground.js" />
+        <option value="$PROJECT_DIR$/05_effects/animating.htm" />
       </list>
     </option>
   </component>
@@ -177,6 +198,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lynda_jQuery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lynda_jQuery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02_retrieving" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -197,12 +232,7 @@
       <recent name="$PROJECT_DIR$/03_manipulating" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.sliding.htm">
-    <configuration default="false" name="tablestripe_finished.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/04_events/tablestripe_finished.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.animating.htm">
     <configuration default="false" name="tablestripe_start.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/04_events/tablestripe_start.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -219,6 +249,11 @@
       <method />
     </configuration>
     <configuration default="false" name="sliding.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/05_effects/sliding.htm">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="animating.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/05_effects/animating.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -244,19 +279,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_finished.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_start.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.showhide.htm" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.fadeeffect.htm" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.sliding.htm" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_start.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.showhide.htm" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.fadeeffect.htm" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.sliding.htm" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.animating.htm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.sliding.htm" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.fadeeffect.htm" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.showhide.htm" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_start.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_finished.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.animating.htm" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.sliding.htm" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.fadeeffect.htm" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.showhide.htm" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.tablestripe_start.html" />
       </list>
     </recent_temporary>
   </component>
@@ -486,14 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_retrieving/AttrFilters_finished.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="600">
-          <caret line="11" column="69" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_manipulating/inserting_finished.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="570">
@@ -673,22 +700,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/05_effects/sliding.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="870">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_retrieving/AttrFilters_finished.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="600">
+          <caret line="11" column="69" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/playground.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5667" max-vertical-offset="6375">
-          <caret line="421" column="0" selection-start-line="421" selection-start-column="0" selection-end-line="421" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2442" max-vertical-offset="6630">
+          <caret line="422" column="22" selection-start-line="422" selection-start-column="22" selection-end-line="422" selection-end-column="22" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <marker date="1433245262000" expanded="true" signature="7387:7422" placeholder="..." />
-            <marker date="1433245262000" expanded="true" signature="7497:7532" placeholder="..." />
+            <marker date="1433245515000" expanded="true" signature="7387:7422" placeholder="..." />
+            <marker date="1433245515000" expanded="true" signature="7497:7532" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_effects/sliding.htm">
+    <entry file="file://$PROJECT_DIR$/05_effects/animating.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48076922" vertical-offset="0" max-vertical-offset="870">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        <state vertical-scroll-proportion="1.0961539" vertical-offset="96" max-vertical-offset="870">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
