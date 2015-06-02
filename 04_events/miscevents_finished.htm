@@ -3,15 +3,26 @@
 <head>
     <title>Miscellaneous jQuery Events</title>
     <script type="text/javascript" src="../jquery-1.9.1.js"></script>
+
+
     <script type="text/javascript">
+
         $(function() {
+
+            // One function will only execute once
+            // Here we are selecting all divs but only executing the event once for each div we click on
+
             $("div").one("click", function() {
-                $(this).css({ background: "red",
-                    cursor: "auto"
-                });
+                $(this).css("background", "red");
             });
+
         });
+
+
     </script>
+
+
+
     <style type="text/css">
         div {
             width: 60px;
@@ -25,7 +36,15 @@
         p {
             font-size: 18pt;
         }
+
+        .myClass {
+            background: red;
+
+        }
+
     </style>
+
+
 </head>
 <body>
     <p>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f3470-0528-40d2-a65f-54277777ec33" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_events/eventobj_finished.htm" afterPath="$PROJECT_DIR$/04_events/eventobj_finished.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_events/miscevents_finished.htm" afterPath="$PROJECT_DIR$/04_events/miscevents_finished.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lynda_jQuery.iws" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="playground.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4617" max-vertical-offset="5355">
-              <caret line="333" column="71" selection-start-line="333" selection-start-column="71" selection-end-line="333" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4302" max-vertical-offset="5355">
+              <caret line="310" column="8" selection-start-line="310" selection-start-column="8" selection-end-line="310" selection-end-column="28" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
                 <marker date="1433123458000" expanded="true" signature="7387:7422" placeholder="..." />
@@ -42,21 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eventobj_start.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04_events/eventobj_start.htm">
+      <file leaf-file-name="miscevents_start.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_events/miscevents_start.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="495">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="675">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eventobj_finished.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04_events/eventobj_finished.htm">
+      <file leaf-file-name="miscevents_finished.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_events/miscevents_finished.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5048077" vertical-offset="0" max-vertical-offset="624">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.3125" vertical-offset="30" max-vertical-offset="1035">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -99,6 +99,8 @@
         <option value="$PROJECT_DIR$/04_events/helpers_start.htm" />
         <option value="$PROJECT_DIR$/playground.js" />
         <option value="$PROJECT_DIR$/04_events/eventobj_finished.htm" />
+        <option value="$PROJECT_DIR$/04_events/eventobj_start.htm" />
+        <option value="$PROJECT_DIR$/04_events/miscevents_finished.htm" />
       </list>
     </option>
   </component>
@@ -199,12 +201,7 @@
       <recent name="$PROJECT_DIR$/03_manipulating" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.eventobj_finished.htm">
-    <configuration default="false" name="binding_start.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/04_events/binding_start.htm">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.miscevents_finished.htm">
     <configuration default="false" name="binding_finished.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/04_events/binding_finished.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -221,6 +218,11 @@
       <method />
     </configuration>
     <configuration default="false" name="eventobj_finished.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/04_events/eventobj_finished.htm">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="miscevents_finished.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/04_events/miscevents_finished.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -246,19 +248,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.binding_start.htm" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.binding_finished.htm" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.helpers_start.htm" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.helpers_finished.htm" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.eventobj_finished.htm" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.binding_finished.htm" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.helpers_start.htm" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.helpers_finished.htm" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.eventobj_finished.htm" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.miscevents_finished.htm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.eventobj_finished.htm" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.helpers_start.htm" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.helpers_finished.htm" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.binding_finished.htm" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.binding_start.htm" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.miscevents_finished.htm" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.eventobj_finished.htm" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.helpers_start.htm" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.helpers_finished.htm" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.binding_finished.htm" />
       </list>
     </recent_temporary>
   </component>
@@ -579,9 +581,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/04_events/eventobj_finished.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_events/eventobj_start.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1923077" vertical-offset="0" max-vertical-offset="624">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_events/helpers_start.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5769231" vertical-offset="0" max-vertical-offset="795">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_events/helpers_finished.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33653846" vertical-offset="0" max-vertical-offset="870">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_events/tablestripe_start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_events/tablestripe_finished.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04_events/binding_finished.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1875" vertical-offset="60" max-vertical-offset="780">
+        <state vertical-scroll-proportion="0.40865386" vertical-offset="60" max-vertical-offset="780">
           <caret line="21" column="15" selection-start-line="18" selection-start-column="12" selection-end-line="21" selection-end-column="15" />
           <folding />
         </state>
@@ -595,26 +645,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_events/helpers_finished.htm">
+    <entry file="file://$PROJECT_DIR$/04_events/miscevents_start.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33653846" vertical-offset="0" max-vertical-offset="870">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_events/helpers_start.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5769231" vertical-offset="0" max-vertical-offset="795">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/playground.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4617" max-vertical-offset="5355">
-          <caret line="333" column="71" selection-start-line="333" selection-start-column="71" selection-end-line="333" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4302" max-vertical-offset="5355">
+          <caret line="310" column="8" selection-start-line="310" selection-start-column="8" selection-end-line="310" selection-end-column="28" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
             <marker date="1433123458000" expanded="true" signature="7387:7422" placeholder="..." />
@@ -623,18 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_events/eventobj_start.htm">
+    <entry file="file://$PROJECT_DIR$/04_events/miscevents_finished.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_events/eventobj_finished.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5048077" vertical-offset="0" max-vertical-offset="624">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.3125" vertical-offset="30" max-vertical-offset="1035">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding />
         </state>
       </provider>
