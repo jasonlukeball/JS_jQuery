@@ -19,20 +19,53 @@
 
     <script type="text/javascript">
 
-        $(function() {
+        $( document ).ready(function() {
+
             // Add accordion to newsSection
             $("#newsSection").accordion( {header: "h4"} );
+
+
+            // Rotate the images in the #slideShow div
+
+            // Rotate every second
+            setInterval("rotateImages()",1000);
+
+            rotateImages = function() {
+                console.log("rotateImages function ran");
+
+                // Get the image with the "current" class
+                var currentPhoto = $("#slideShow div.current");
+
+                // Get the next photo in the array
+                var nextPhoto = currentPhoto.next();
+                console.log(nextPhoto);
+
+                // If we are at the last photo, set the first div to current
+                if ( nextPhoto.length == 0 ) {
+                    nextPhoto = $("#slideShow div:first");
+                }
+
+                // Remove the current class and add the previous class to the current photo
+                currentPhoto.removeClass("current").addClass("previous");
+
+                // Change the image
+                nextPhoto
+                        // Set opacity to 0%
+                        .css({opacity: 0.0})
+                        // Change the next image's class to "current
+                        .addClass("current")
+                        // Animate the change of opacity to 100% with a callback to remove the "previous" class
+                        .animate({opacity: 1.0}, 1000, function() {currentPhoto.removeClass("previous")} );
+            };
 
         });
 
 
 
+
+
+
     </script>
-
-
-
-
-
 </head>
 
 
@@ -65,8 +98,7 @@
 
     <!-- SIDEBAR -->
     <div id="sidebar">
-        <img src="_images/surf1.jpg" width="200" height="160" alt="surfer" />
-
+            <img src="_images/surf1.jpg" width="200" height="160" alt="surfer" />
         <h3>This month's surfer's journal</h3>
         <p>
             Josh Cambria pens this month's surfer journal. Check out his month-long surfing
@@ -79,7 +111,32 @@
         <p>
             Looking for a hot new board? <a href="gear/boards.htm">Check out</a> our new Fearless
             board from legendary shaper Carl Benson.</p>
-        <img src="_images/ventura_01_thumb.jpg" alt="Todd" width="200" height="160" class="gallery" />
+
+
+        <!-- SLIDESHOW IMAGE -->
+        <div id="slideShow">
+
+
+            <div class="current">
+                <!-- First image is "current" by default -->
+                <a href="lifestyle/photos.htm"><img src="_images/ventura_01_thumb.jpg" alt="Photo Gallery" width="200" height="160" class="gallery" /></a>
+            </div>
+
+            <div>
+                <a href="lifestyle/photos.htm"><img src="_images/ventura_02_thumb.jpg" alt="Photo Gallery" width="200" height="160" class="gallery" /></a>
+            </div>
+
+            <div>
+                <a href="lifestyle/photos.htm"><img src="_images/ventura_03_thumb.jpg" alt="Photo Gallery" width="200" height="160" class="gallery" /></a>
+            </div>
+
+            <div>
+                <a href="lifestyle/photos.htm"><img src="_images/ventura_04_thumb.jpg" alt="Photo Gallery" width="200" height="160" class="gallery" /></a>
+            </div>
+
+
+        </div>
+
 
         <h3>Photos anyone?</h3>
         <p>

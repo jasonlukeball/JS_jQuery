@@ -4,25 +4,6 @@
 
 
 // ---------------
-// EVENTS
-// ---------------
-
-// DOCUMENT READY
-$("document").ready(function() {
-    // When the DOM has loaded, flash an alert
-    // This does NOT include ALL resources such as images etc
-    // ...
-});
-
-// WINDOW LOAD
-$(window).load(function(){
-    // Runs after ALL the resources, images, css, js etc are completely loaded
-    // ...
-});
-
-
-
-// ---------------
 // SELECTORS
 // ---------------
 
@@ -330,6 +311,19 @@ $("#theDiv").offset().left;
 // -----------------------------
 // EVENTS
 // -----------------------------
+
+// DOCUMENT READY
+$("document").ready(function() {
+    // When the DOM has loaded, flash an alert
+    // This does NOT include ALL resources such as images etc
+    // ...
+});
+
+// WINDOW LOAD
+$(window).load(function(){
+    // Runs after ALL the resources, images, css, js etc are completely loaded
+    // ...
+});
 
 // Mouseover / Mouseleave (this will do the same as hover in this case)
 $("#evtTarget").on("mouseover mouseleave", function() {
