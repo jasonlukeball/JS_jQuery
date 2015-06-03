@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="808f3470-0528-40d2-a65f-54277777ec33" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07_realsite/Groundswell_Start/gear/boards.htm" afterPath="$PROJECT_DIR$/07_realsite/Groundswell_Start/gear/boards.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07_realsite/Groundswell_Start/index.htm" afterPath="$PROJECT_DIR$/07_realsite/Groundswell_Start/index.htm" />
     </list>
     <ignored path="lynda_jQuery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +58,8 @@
       <file leaf-file-name="boards.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/07_realsite/Groundswell_Start/gear/boards.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85427135" vertical-offset="120" max-vertical-offset="1980">
-              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.75376886" vertical-offset="180" max-vertical-offset="1980">
+              <caret line="42" column="89" selection-start-line="42" selection-start-column="89" selection-end-line="42" selection-end-column="89" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -869,8 +868,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/07_realsite/Groundswell_Start/gear/boards.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85427135" vertical-offset="120" max-vertical-offset="1980">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.75376886" vertical-offset="180" max-vertical-offset="1980">
+          <caret line="42" column="89" selection-start-line="42" selection-start-column="89" selection-end-line="42" selection-end-column="89" />
           <folding>
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
