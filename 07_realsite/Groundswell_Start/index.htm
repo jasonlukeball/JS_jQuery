@@ -21,14 +21,20 @@
 
         $( document ).ready(function() {
 
+
+            // -------------------
+            // ACCORDION
+            // -------------------
             // Add accordion to newsSection
             $("#newsSection").accordion( {header: "h4"} );
 
 
-            // Rotate the images in the #slideShow div
+            // -------------------
+            // IMAGE ROTATOR
+            // -------------------
+            // Rotate the images in the #slideShow div every second
 
-            // Rotate every second
-            setInterval("rotateImages()",1000);
+            setInterval("rotateImages()",100);
 
             rotateImages = function() {
                 console.log("rotateImages function ran");
