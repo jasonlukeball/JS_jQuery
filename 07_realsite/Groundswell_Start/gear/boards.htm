@@ -1,16 +1,69 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Groundswell Gear</title>
     <link href="../_css/main.css" rel="stylesheet" type="text/css" media="screen, projection" />
+
+    <!-- JQUERY -->
+    <script type="text/javascript" src="../_scripts/jquery-1.3.2.min.js"></script>
+
+    <script type="text/javascript">
+
+
+
+        $( document ).ready(function() {
+
+            // When the user hovers the mouse over the "view larger" button display the thumbnail image in the "tooltipContent" div
+
+            // View Larger button
+            //$("#viewlarger").hover(hoverOnFunction, hoverOffFunction);
+
+            $("#viewlarger").hover(
+                    // hoverOnFunction
+                    function() {
+                        // Get the offset (location) of the image
+                        var offset = $("#gearItem").offset();
+
+                        // Set the css for the "tooltip1" div so it will show
+                        $("#tooltip1")
+                                // Set the top position
+                                .css("top", offset.top)
+                                // Set the left position
+                                .css("left", offset.left)
+                                // Set visibility
+                                .css("display", "block")
+                                // Animate the opacity to finally show it
+                                .animate({opacity: 1.0}, 300);
+
+
+                    },
+                    // hoverOffFunction
+                    function() {
+                        // Hide the div by animating it's opacity
+                        $("#tooltip1").animate({opacity: 0.0}, 300);
+                    }
+            );
+
+        });
+
+
+
+    </script>
+
+
 </head>
+
+
 <body>
+
     <div id="wrapper">
+
         <div id="header">
             <div id="contactButton">
                 <a href="mailto:contact@groundswell.com" title="contact us">Contact Us</a></div>
+
             <img src="../_assets/banner.gif" width="770" height="110" alt="Groundswell" />
+
             <div id="mainNav">
                 <ul>
                     <li><a href="../index.htm">Home</a></li>
@@ -19,9 +72,12 @@
                     <li><a href="../videos.htm">Videos</a></li>
                 </ul>
             </div>
+
         </div>
+
         <div id="identifier">
             <img src="../_images/gear_banner.jpg" width="770" height="90" alt="check out our gear" /></div>
+
         <div id="sidebar">
             <h3 class="gear">
                 Killer Boards</h3>
@@ -50,6 +106,7 @@
             <p class="gear">
                 Dual Fin, Balanced</p>
         </div>
+
         <div id="mainContent">
             <ul id="gearSubNav">
                 <li class="current"><a href="boards.htm" class="boards">Boards</a></li>
@@ -61,10 +118,11 @@
             </div>
             <div id="gearItem">
                 <img src="../_images/fearless_medium.jpg" alt="swell suit" width="120" height="350" />
-                <p>
-                    view larger: <a href="boards_fearless_large.htm" target="_blank" id="viewlarger">[+]</a></p>
-                <p>
-                    board comparison <a href="board_comparison.htm">[+]</a></p>
+
+                <!-- VIEW LARGER BUTTON -->
+                <p>view larger: <a href="boards_fearless_large.htm" target="_blank" id="viewlarger">[+]</a></p>
+
+                <p>board comparison <a href="board_comparison.htm">[+]</a></p>
             </div>
             <div id="gearDesc">
                 <h1>
@@ -81,13 +139,20 @@
             </div>
             <br class="clearfloat" />
         </div>
+
         <div id="footer">
             <p>
                 &copy; Groundswell Surf <a href="../privacy.htm">Privacy Policy</a> | <a href="../terms.htm">
                     Terms and Conditions</a></p>
         </div>
+
     </div>
+
+    <!-- TOOLTIP CONTENT -->
     <div class="tooltipContent" id="tooltip1">
-        <img src="../_images/fearless_large.png" width="510" height="310" alt="Fearless board" /></div>
+        <img src="../_images/fearless_large.png" width="510" height="310" alt="Fearless board" />
+    </div>
+
+
 </body>
 </html>
