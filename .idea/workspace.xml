@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f3470-0528-40d2-a65f-54277777ec33" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_effects/animating.htm" afterPath="$PROJECT_DIR$/05_effects/animating.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_effects/imagerotator_finished.htm" afterPath="$PROJECT_DIR$/05_effects/imagerotator_finished.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_effects/imagerotator_start.htm" afterPath="$PROJECT_DIR$/05_effects/imagerotator_start.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08_Ajax/Basic_Finished.html" afterPath="$PROJECT_DIR$/08_Ajax/Basic_Finished.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07_realsite/Groundswell_Start/index.htm" afterPath="$PROJECT_DIR$/07_realsite/Groundswell_Start/index.htm" />
     </list>
     <ignored path="lynda_jQuery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +31,7 @@
       <file leaf-file-name="playground.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2442" max-vertical-offset="6630">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5442" max-vertical-offset="6630">
               <caret line="422" column="22" selection-start-line="422" selection-start-column="22" selection-end-line="422" selection-end-column="22" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
@@ -43,31 +42,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imagerotator_start.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_effects/imagerotator_start.htm">
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07_realsite/Groundswell_Start/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="810">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.49519232" vertical-offset="51" max-vertical-offset="705">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <folding>
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imagerotator_prevnext.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_effects/imagerotator_prevnext.htm">
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07_realsite/Groundswell_Final/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="990">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imagerotator_finished.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05_effects/imagerotator_finished.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24038461" vertical-offset="240" max-vertical-offset="1140">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="2400">
+              <caret line="31" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,6 +113,8 @@
         <option value="$PROJECT_DIR$/05_effects/animating.htm" />
         <option value="$PROJECT_DIR$/05_effects/imagerotator_start.htm" />
         <option value="$PROJECT_DIR$/05_effects/imagerotator_finished.htm" />
+        <option value="$PROJECT_DIR$/08_Ajax/Basic_Finished.html" />
+        <option value="$PROJECT_DIR$/07_realsite/Groundswell_Start/index.htm" />
       </list>
     </option>
   </component>
@@ -185,6 +180,10 @@
               <option name="myItemId" value="07_realsite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Groundswell_Start" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -196,7 +195,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="05_effects" />
+              <option name="myItemId" value="07_realsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Groundswell_Start" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lynda_jQuery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lynda_jQuery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07_realsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Groundswell_Final" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -220,17 +245,7 @@
       <recent name="$PROJECT_DIR$/03_manipulating" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.imagerotator_prevnext.htm">
-    <configuration default="false" name="fadeeffect.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/05_effects/fadeeffect.htm">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sliding.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/05_effects/sliding.htm">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.htm (1)">
     <configuration default="false" name="animating.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/05_effects/animating.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -242,6 +257,16 @@
       <method />
     </configuration>
     <configuration default="false" name="imagerotator_prevnext.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/05_effects/imagerotator_prevnext.htm">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/07_realsite/Groundswell_Final/index.htm">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.htm (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/07_realsite/Groundswell_Start/index.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -267,19 +292,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.fadeeffect.htm" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.sliding.htm" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.animating.htm" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.imagerotator_finished.htm" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.imagerotator_prevnext.htm" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.animating.htm" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.imagerotator_finished.htm" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.imagerotator_prevnext.htm" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.htm" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.htm (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.imagerotator_prevnext.htm" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.imagerotator_finished.htm" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.animating.htm" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.sliding.htm" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.fadeeffect.htm" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.htm (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.htm" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.imagerotator_prevnext.htm" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.imagerotator_finished.htm" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.animating.htm" />
       </list>
     </recent_temporary>
   </component>
@@ -339,24 +364,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01_overview/FirstjQueryPage_finished.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33653846" vertical-offset="0" max-vertical-offset="624">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_retrieving/images/small_pdf_icon.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_retrieving/images/smail.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_overview/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24038461" vertical-offset="0" max-vertical-offset="624">
@@ -704,22 +711,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playground.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2442" max-vertical-offset="6630">
-          <caret line="422" column="22" selection-start-line="422" selection-start-column="22" selection-end-line="422" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-            <marker date="1433245515000" expanded="true" signature="7387:7422" placeholder="..." />
-            <marker date="1433245515000" expanded="true" signature="7497:7532" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05_effects/animating.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71153843" vertical-offset="186" max-vertical-offset="1020">
           <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_effects/imagerotator_finished.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5769231" vertical-offset="240" max-vertical-offset="1140">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -734,17 +737,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05_effects/imagerotator_start.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="810">
+        <state vertical-scroll-proportion="0.1923077" vertical-offset="0" max-vertical-offset="810">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_effects/imagerotator_finished.htm">
+    <entry file="file://$PROJECT_DIR$/08_Ajax/Basic_Finished.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24038461" vertical-offset="240" max-vertical-offset="1140">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5442" max-vertical-offset="6630">
+          <caret line="422" column="22" selection-start-line="422" selection-start-column="22" selection-end-line="422" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+            <marker date="1433245515000" expanded="true" signature="7387:7422" placeholder="..." />
+            <marker date="1433245515000" expanded="true" signature="7497:7532" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_realsite/Groundswell_Final/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="2400">
+          <caret line="31" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_realsite/Groundswell_Start/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49519232" vertical-offset="51" max-vertical-offset="705">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
