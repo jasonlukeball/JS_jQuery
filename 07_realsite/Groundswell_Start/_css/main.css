@@ -150,6 +150,21 @@ body  {
 	margin-bottom: -.2em;
 }
 
+#mainContent h4 span.subhead {
+    margin-left: 40px;
+}
+
+#newsSection {
+    margin-left: 20px;
+}
+
+#newsSection h4, #newsSection p {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+
+
 #mainContent h2 {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 1.2em;
