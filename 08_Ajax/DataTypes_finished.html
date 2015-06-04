@@ -9,12 +9,15 @@
     }
     </style>
     <script type="text/javascript" src="../jquery-1.9.1.js"></script>
+
     <script type="text/javascript">
+
       $("document").ready(function() {
         getJSONData();
         //getXMLData();
       });
-      
+
+      // A LOT OF THE STRUCTURE BELOW IS SPECIFIC TO THE FLICKR API
 	  function getJSONData() {
 		var flickrAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
 		$.getJSON(
@@ -48,7 +51,7 @@
 
         // ITERATE OVER EACH ITEM IN THE RESULT OBJECT
 		$.each(result.items, function(index, item) {
-            // ADD THE IMAGE
+            // ADD THE IMAGE (media object is nested inside the item object)
 			$("<img>").attr("src", item.media.m).appendTo("#content");
             // ADD A BREAK
             $( "#content" ).append( "</br>" );
