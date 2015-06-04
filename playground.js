@@ -438,6 +438,42 @@ $("#toggle").click(function() {
 // -----------------------------
 
 
+$("document").ready(function() {
+    getData();
+});
+
+
+// AJAX REQUEST
+function getData() {
+
+    $.ajax({
+        url:      "testdata.txt",
+        type:     "GET",
+        dataType: "text",
+        success:  successFn,
+        error:    errorFn,
+        complete: function() { console.log("AJAX Request Complete!"); }
+    });
+
+}
+
+
+// SUCCESS FUNCTION
+function successFn(result) {
+    console.log("SUCCESS");
+    $("#content").append(result);
+}
+
+
+// ERROR FUNCTION
+function errorFn(xhr, status, strErr) {
+    console.log(xhr.responseText);
+    console.log(status);
+    console.log(strErr);
+}
+
+
+
 
 
 

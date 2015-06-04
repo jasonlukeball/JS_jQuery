@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f3470-0528-40d2-a65f-54277777ec33" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08_Ajax/Basic_Finished.html" afterPath="$PROJECT_DIR$/08_Ajax/Basic_Finished.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08_Ajax/Basic_Start.html" afterPath="$PROJECT_DIR$/08_Ajax/Basic_Start.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playground.js" afterPath="$PROJECT_DIR$/playground.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -30,25 +29,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="playground.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="playground.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playground.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.333334" vertical-offset="5952" max-vertical-offset="6750">
-              <caret line="439" column="0" selection-start-line="439" selection-start-column="0" selection-end-line="439" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.0724638" vertical-offset="6429" max-vertical-offset="7290">
+              <caret line="475" column="0" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
-                <marker date="1433383261000" expanded="true" signature="7023:7058" placeholder="..." />
-                <marker date="1433383261000" expanded="true" signature="7133:7168" placeholder="..." />
+                <marker date="1433387534000" expanded="true" signature="7023:7058" placeholder="..." />
+                <marker date="1433387534000" expanded="true" signature="7133:7168" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Basic_Start.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Basic_Start.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08_Ajax/Basic_Start.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4494382" vertical-offset="0" max-vertical-offset="825">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state vertical-scroll-proportion="-7.25" vertical-offset="66" max-vertical-offset="975">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="48" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -57,8 +56,8 @@
       <file leaf-file-name="Basic_Finished.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08_Ajax/Basic_Finished.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.625" vertical-offset="129" max-vertical-offset="1080">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state vertical-scroll-proportion="-29.0" vertical-offset="114" max-vertical-offset="1080">
+              <caret line="54" column="7" selection-start-line="14" selection-start-column="5" selection-end-line="54" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -118,9 +117,9 @@
         <option value="$PROJECT_DIR$/08_Ajax/testdata.txt" />
         <option value="$PROJECT_DIR$/08_Ajax/streamtimeSupport.html" />
         <option value="$PROJECT_DIR$/08_Ajax/DataTypes_finished.html" />
-        <option value="$PROJECT_DIR$/playground.js" />
         <option value="$PROJECT_DIR$/08_Ajax/Basic_Finished.html" />
         <option value="$PROJECT_DIR$/08_Ajax/Basic_Start.html" />
+        <option value="$PROJECT_DIR$/playground.js" />
       </list>
     </option>
   </component>
@@ -208,12 +207,7 @@
       <recent name="$PROJECT_DIR$/03_manipulating" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.DataTypes_finished.html">
-    <configuration default="false" name="photos.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/07_realsite/Groundswell_Start/lifestyle/photos.htm">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.Basic_Start.html">
     <configuration default="false" name="register.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/07_realsite/Groundswell_Start/lifestyle/register.htm">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -230,6 +224,11 @@
       <method />
     </configuration>
     <configuration default="false" name="DataTypes_finished.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/08_Ajax/DataTypes_finished.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Basic_Start.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/08_Ajax/Basic_Start.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -261,19 +260,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.photos.htm" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.register.htm" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Basic_Finished.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.streamtimeSupport.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.DataTypes_finished.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.register.htm" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Basic_Finished.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.streamtimeSupport.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.DataTypes_finished.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Basic_Start.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.DataTypes_finished.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.streamtimeSupport.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Basic_Finished.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.register.htm" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.photos.htm" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Basic_Start.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.DataTypes_finished.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.streamtimeSupport.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Basic_Finished.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.register.htm" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +301,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20750293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20750293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976552" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -393,6 +392,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55288464" vertical-offset="0" max-vertical-offset="765">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -748,14 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_Ajax/testdata.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08_Ajax/Helpers_Finished.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
@@ -800,31 +792,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playground.js">
+    <entry file="file://$PROJECT_DIR$/08_Ajax/Basic_Finished.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.333334" vertical-offset="5952" max-vertical-offset="6750">
-          <caret line="439" column="0" selection-start-line="439" selection-start-column="0" selection-end-line="439" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-            <marker date="1433383261000" expanded="true" signature="7023:7058" placeholder="..." />
-            <marker date="1433383261000" expanded="true" signature="7133:7168" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-29.0" vertical-offset="114" max-vertical-offset="1080">
+          <caret line="54" column="7" selection-start-line="14" selection-start-column="5" selection-end-line="54" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_Ajax/Basic_Finished.html">
+    <entry file="file://$PROJECT_DIR$/08_Ajax/testdata.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.625" vertical-offset="129" max-vertical-offset="1080">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.023148147" vertical-offset="0" max-vertical-offset="648">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/08_Ajax/Basic_Start.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4494382" vertical-offset="0" max-vertical-offset="825">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state vertical-scroll-proportion="-7.25" vertical-offset="66" max-vertical-offset="975">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="48" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0724638" vertical-offset="6429" max-vertical-offset="7290">
+          <caret line="475" column="0" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+            <marker date="1433387534000" expanded="true" signature="7023:7058" placeholder="..." />
+            <marker date="1433387534000" expanded="true" signature="7133:7168" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
