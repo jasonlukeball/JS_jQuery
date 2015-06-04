@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808f3470-0528-40d2-a65f-54277777ec33" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08_Ajax/Helpers_Finished.html" afterPath="$PROJECT_DIR$/08_Ajax/Helpers_Finished.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08_Ajax/Helpers_start.html" afterPath="$PROJECT_DIR$/08_Ajax/Helpers_start.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playground.js" afterPath="$PROJECT_DIR$/playground.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08_Ajax/DataTypes_finished.html" afterPath="$PROJECT_DIR$/08_Ajax/DataTypes_finished.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lynda_jQuery.iws" />
@@ -30,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="playground.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="playground.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7584541" vertical-offset="6894" max-vertical-offset="7530">
-              <caret line="493" column="68" selection-start-line="493" selection-start-column="68" selection-end-line="493" selection-end-column="68" />
+            <state vertical-scroll-proportion="-1.8888888" vertical-offset="6909" max-vertical-offset="7530">
+              <caret line="466" column="0" selection-start-line="466" selection-start-column="0" selection-end-line="466" selection-end-column="0" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
                 <marker date="1433392456000" expanded="true" signature="7023:7058" placeholder="..." />
@@ -44,21 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Helpers_start.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08_Ajax/Helpers_start.html">
+      <file leaf-file-name="DataTypes_start.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08_Ajax/DataTypes_start.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="705">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="78" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Helpers_Finished.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08_Ajax/Helpers_Finished.html">
+      <file leaf-file-name="DataTypes_finished.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08_Ajax/DataTypes_finished.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="795">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="23" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.5769231" vertical-offset="0" max-vertical-offset="1290">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -117,12 +115,12 @@
         <option value="$PROJECT_DIR$/07_realsite/Groundswell_Start/lifestyle/register.htm" />
         <option value="$PROJECT_DIR$/08_Ajax/testdata.txt" />
         <option value="$PROJECT_DIR$/08_Ajax/streamtimeSupport.html" />
-        <option value="$PROJECT_DIR$/08_Ajax/DataTypes_finished.html" />
         <option value="$PROJECT_DIR$/08_Ajax/Basic_Finished.html" />
         <option value="$PROJECT_DIR$/08_Ajax/Basic_Start.html" />
         <option value="$PROJECT_DIR$/08_Ajax/Helpers_Finished.html" />
         <option value="$PROJECT_DIR$/08_Ajax/Helpers_start.html" />
         <option value="$PROJECT_DIR$/playground.js" />
+        <option value="$PROJECT_DIR$/08_Ajax/DataTypes_finished.html" />
       </list>
     </option>
   </component>
@@ -210,7 +208,7 @@
       <recent name="$PROJECT_DIR$/03_manipulating" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Helpers_start.html">
+  <component name="RunManager" selected="JavaScript Debug.DataTypes_finished.html">
     <configuration default="false" name="streamtimeSupport.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lynda_jQuery/08_Ajax/streamtimeSupport.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -271,10 +269,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Helpers_start.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Helpers_Finished.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Basic_Start.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.DataTypes_finished.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.DataTypes_finished.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Helpers_start.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Helpers_Finished.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Basic_Start.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.streamtimeSupport.html" />
       </list>
     </recent_temporary>
@@ -431,6 +429,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5048077" vertical-offset="0" max-vertical-offset="624">
           <caret line="21" column="7" selection-start-line="7" selection-start-column="4" selection-end-line="21" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -466,6 +465,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16826923" vertical-offset="0" max-vertical-offset="624">
           <caret line="7" column="36" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -752,22 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_Ajax/DataTypes_finished.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39325842" vertical-offset="0" max-vertical-offset="900">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_Ajax/DataTypes_start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07_realsite/Groundswell_Start/index.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39325842" vertical-offset="0" max-vertical-offset="3270">
@@ -822,13 +806,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playground.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7584541" vertical-offset="6894" max-vertical-offset="7530">
-          <caret line="493" column="68" selection-start-line="493" selection-start-column="68" selection-end-line="493" selection-end-column="68" />
+        <state vertical-scroll-proportion="-1.8888888" vertical-offset="6909" max-vertical-offset="7530">
+          <caret line="466" column="0" selection-start-line="466" selection-start-column="0" selection-end-line="466" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
             <marker date="1433392456000" expanded="true" signature="7023:7058" placeholder="..." />
             <marker date="1433392456000" expanded="true" signature="7133:7168" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_Ajax/DataTypes_start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_Ajax/DataTypes_finished.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5769231" vertical-offset="0" max-vertical-offset="1290">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

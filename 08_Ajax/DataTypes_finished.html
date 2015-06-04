@@ -17,11 +17,13 @@
       
 	  function getJSONData() {
 		var flickrAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
-		$.getJSON( flickrAPI, {
-			tags: "space needle",
-			tagmode: "any",
-			format: "json"
-			},
+		$.getJSON(
+            // URL
+            flickrAPI,
+            // DATA
+            // This is the find criteria
+            { tags: "peanuts", tagmode: "any", format: "json"},
+            // SUCCESS
 			successFn);
       }
       
@@ -35,9 +37,33 @@
       }
       
       function successFn(result) {
-		$.each(result.items, function(i, item) {
+
+        // AJAX RESULT OBJECT
+        console.log(result);
+        // FIRST ITEM IN THE AJAX RESULT OBJECT
+        console.log(result.items[0]);
+        // "title" VALUE FOR THE FIRST ITEM IN THE AJAX RESULT OBJECT
+        console.log(result.items[0]["title"]);
+
+
+        // ITERATE OVER EACH ITEM IN THE RESULT OBJECT
+		$.each(result.items, function(index, item) {
+            // ADD THE IMAGE
 			$("<img>").attr("src", item.media.m).appendTo("#content");
-			if (i === 4) {
+            // ADD A BREAK
+            $( "#content" ).append( "</br>" );
+            // ADD THE TITLE
+            $( "#content" ).append( "<strong>TITLE: </strong>" + item["title"] );
+            // ADD A BREAK
+            $( "#content" ).append( "</br>" );
+            // ADD THE AUTHOR
+            $( "#content" ).append( "<strong>AUTHOR: </strong>" + item["author"] );
+
+
+            // ADD A HORIZONTAL LINE
+            $("<hr>").appendTo("#content");
+
+			if (index === 10) {
 				return false;
 			}
 		});
