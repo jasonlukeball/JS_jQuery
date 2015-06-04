@@ -13,20 +13,31 @@
       $("document").ready(function() {
         getData();
       });
-      
+
+
       function getData() {
-      	$.get("testdata.txt", successFn);
-      	
+
+        // Using the $.get Helper Method
+        $.get("testdata.txt", successFn);
+
+        // Using the .load Helper Method
         //$("#content").load("testdata.txt");
+
       }
+
 
       function successFn(result) {
         console.log("Setting result");
+          console.log(result);
       	$("#content").append(result);
       }
+
+
       function errorFn(xhr, status, strErr) {
         alert(strErr);
       }
+
+
   </script>
 </head>
 <body>

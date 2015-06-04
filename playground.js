@@ -475,8 +475,24 @@ function errorFn(xhr, status, strErr) {
 
 
 
+// HELPER FUNCTIONS
+// --------------------------
 
+// Load data from the server using a HTTP GET request.
+jQuery.get();
 
+// Load JSON-encoded data from the server using a GET HTTP request.
+jQuery.getJSON();
+
+// Load a JavaScript file from the server using a GET HTTP request, then execute it.
+jQuery.getScript();
+
+// Load data from the server using a HTTP POST request.
+jQuery.post();
+
+// Load data from the server and place the returned HTML into the matched element.
+// This is the shorthand way to GET data and load it into an element
+.load();
 
 
 
