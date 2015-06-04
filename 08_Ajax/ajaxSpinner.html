@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Playing with AJAX Spinners</title>
+    <style>
+        #content {
+            padding: 5pt;
+            border: 2px dashed lightgray;
+        }
+        #loadingDiv {
+            height: 50px;
+            width: 50px;
+            background-color: #0074c7;
+        }
+        #spinner {
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+
+    <script type="text/javascript" src="../jquery-1.9.1.js"></script>
+
+
+    <script type="text/javascript">
+
+        $("document").ready(function() {
+
+            // SHOW THE AJAX SPINNER
+            $('#loadingDiv').show();
+
+            // RUN GET JSON DATA FUNCTION
+            getJSONData();
+        });
+
+        // GET JSON DATA
+        function getJSONData() {
+            var flickrAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+            $.getJSON(
+                    // URL
+                    flickrAPI,
+                    // DATA
+                    // This is the find criteria
+                    { tags: "rabbit", tagmode: "any", format: "json"},
+                    // SUCCESS
+                    successFn);
+        }
+
+        // SUCCESS
+        function successFn(result) {
+
+            // ITERATE OVER EACH ITEM IN THE RESULT OBJECT
+            $.each(result.items, function(index, item) {
+                // ADD THE IMAGE (media object is nested inside the item object)
+                $("<img>").attr("src", item.media.m).appendTo("#content");
+                // ADD A BREAK
+                $( "#content" ).append( "</br>" );
+                // ADD THE TITLE
+                $( "#content" ).append( "<strong>TITLE: </strong>" + item["title"] );
+                // ADD A BREAK
+                $( "#content" ).append( "</br>" );
+                // ADD THE AUTHOR
+                $( "#content" ).append( "<strong>AUTHOR: </strong>" + item["author"] );
+                // ADD A HORIZONTAL LINE
+                $("<hr>").appendTo("#content");
+
+                // LIMIT TO 10 RESULTS
+                if (index === 9) {
+                    return false;
+                }
+
+            });
+
+            // HIDE THE AJAX SPINNER
+            $('#loadingDiv').hide();
+        }
+
+        // FAIL
+        function errorFn(xhr, status, strErr) {
+            alert(strErr);
+        }
+
+    </script>
+
+
+</head>
+
+
+<body>
+<h1>Playing with AJAX Spinners</h1>
+<!-- AJAX SPINNER DIV -->
+<div id="loadingDiv">
+    <img id="spinner" src="ajaxSpinner.gif">
+</div>
+<!-- PAGE CONTENT -->
+<div id="content"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
